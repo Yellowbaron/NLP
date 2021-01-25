@@ -41,7 +41,7 @@
 12	и	_	CCONJ	_	_	13	cc	_	Tag=O
 13	болезни	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	conj	_	Tag=O
 14	системы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	Tag=O
-15	кровообращения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	Tag=R
+15	кровообращения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	Tag=O
 16	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 0_3
@@ -141,20 +141,20 @@
 # text = В Австрии прием допинга — уголовное преступление.
 1	В	_	ADP	_	_	2	case	_	Tag=O
 2	Австрии	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
-3	прием	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=R
+3	прием	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=O
 4	допинга	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
 5	—	_	PUNCT	_	_	3	punct	_	Tag=O
 6	уголовное	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	Tag=O
-7	преступление	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	Tag=R
+7	преступление	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	Tag=O
 8	.	_	PUNCT	_	_	7	punct	_	Tag=O
 
 # sent_id = 1_11
 # text = Максимальное наказание за его употребление — три года тюрьмы.
 1	Максимальное	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	Tag=O
-2	наказание	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	Tag=R
+2	наказание	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	Tag=O
 3	за	_	ADP	_	_	5	case	_	Tag=O
 4	его	_	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	Tag=O
-5	употребление	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	Tag=R
+5	употребление	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	Tag=O
 6	—	_	PUNCT	_	_	8	punct	_	Tag=O
 7	три	_	NUM	_	Case=Nom	8	nummod:gov	_	Tag=O
 8	года	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	Tag=O
@@ -197,7 +197,7 @@
 12	безопасных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	Tag=O
 13	стран	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	Tag=O
 14	для	_	ADP	_	_	15	case	_	Tag=O
-15	путешествий	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	Tag=R
+15	путешествий	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	Tag=O
 16	.	_	PUNCT	_	_	9	punct	_	Tag=O
 
 # sent_id = 2_6
@@ -220,10 +220,10 @@
 16	здоровью	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	iobj	_	Tag=O
 17	,	_	PUNCT	_	_	18	punct	_	Tag=O
 18	вероятность	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	Tag=O
-19	теракта	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Tag=R
+19	теракта	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Tag=O
 20	и	_	CCONJ	_	_	22	cc	_	Tag=O
 21	стихийных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	Tag=O
-22	бедствий	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	conj	_	Tag=R
+22	бедствий	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	conj	_	Tag=O
 23	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 2_7
@@ -294,19 +294,19 @@
 # text = Из материалов следует, что центр получает финансирование от некого Института государственного управления под руководством Кристофера Доннелли.
 1	Из	_	ADP	_	_	2	case	_	Tag=O
 2	материалов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	Tag=O
-3	следует	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+3	следует	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 4	,	_	PUNCT	_	_	7	punct	_	Tag=O
 5	что	_	SCONJ	_	_	7	mark	_	Tag=O
 6	центр	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=O
-7	получает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Tag=R
-8	финансирование	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Tag=R
+7	получает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Tag=O
+8	финансирование	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Tag=O
 9	от	_	ADP	_	_	11	case	_	Tag=O
 10	некого	_	DET	_	Case=Gen|Gender=Masc|Number=Sing	11	det	_	Tag=O
 11	Института	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	Tag=O
 12	государственного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	Tag=O
-13	управления	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	Tag=R
+13	управления	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	Tag=O
 14	под	_	ADP	_	_	15	case	_	Tag=O
-15	руководством	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	Tag=R
+15	руководством	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	Tag=O
 16	Кристофера	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Tag=O
 17	Доннелли	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	Tag=O
 18	.	_	PUNCT	_	_	3	punct	_	Tag=O
@@ -331,7 +331,7 @@
 16	связях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	nmod	_	Tag=O
 17	с	_	ADP	_	_	18	case	_	Tag=O
 18	Министерством	_	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	nmod	_	Tag=O
-19	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Tag=R
+19	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Tag=O
 20	Великобритании	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Tag=O
 21	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
@@ -352,7 +352,7 @@
 13	в	_	ADP	_	_	16	case	_	Tag=O
 14	связи	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	fixed	_	Tag=O
 15	с	_	ADP	_	_	13	fixed	_	Tag=O
-16	ситуацией	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	Tag=R
+16	ситуацией	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	Tag=O
 17	в	_	ADP	_	_	18	case	_	Tag=O
 18	Крыму	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	Tag=O
 19	.	_	PUNCT	_	_	8	punct	_	Tag=O
@@ -364,18 +364,18 @@
 3	,	_	PUNCT	_	_	1	punct	_	Tag=O
 4	он	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Tag=O
 5	планировал	_	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
-6	заминировать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	Tag=R
+6	заминировать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	Tag=O
 7	Севастопольскую	_	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	Tag=O
 8	бухту	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Tag=O
 9	,	_	PUNCT	_	_	10	punct	_	Tag=O
-10	окружить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	Tag=R
+10	окружить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	Tag=O
 11	полуостров	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	Tag=O
 12	войсками	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	iobj	_	Tag=O
 13	,	_	PUNCT	_	_	16	punct	_	Tag=O
 14	а	_	CCONJ	_	_	16	cc	_	Tag=O
 15	также	_	ADV	_	Degree=Pos	14	fixed	_	Tag=O
-16	уничтожить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	Tag=R
-17	оставшиеся	_	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	20	acl	_	Tag=R
+16	уничтожить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	Tag=O
+17	оставшиеся	_	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	20	acl	_	Tag=O
 18	в	_	ADP	_	_	19	case	_	Tag=O
 19	Крыму	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	Tag=O
 20	самолеты	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	Tag=O
@@ -447,7 +447,7 @@
 23	передает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 24	радио	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	Tag=O
 25	«	_	PUNCT	_	_	26	punct	_	Tag=O
-26	Говорит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	appos	_	Tag=R
+26	Говорит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	appos	_	Tag=O
 27	Москва	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	appos	_	Tag=O
 28	»	_	PUNCT	_	_	26	punct	_	Tag=O
 29	.	_	PUNCT	_	_	4	punct	_	Tag=O
@@ -505,7 +505,7 @@
 6	(	_	PUNCT	_	_	7	punct	_	Tag=O
 7	Юлия	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	Tag=O
 8	)	_	PUNCT	_	_	7	punct	_	Tag=O
-9	лежала	_	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	Tag=R
+9	лежала	_	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	Tag=O
 10	на	_	ADP	_	_	11	case	_	Tag=O
 11	земле	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	Tag=O
 12	на	_	ADP	_	_	13	case	_	Tag=O
@@ -532,7 +532,7 @@
 16	их	_	PRON	_	Animacy=Inan|Case=Acc|Number=Plur|Person=3	15	obj	_	Tag=O
 17	,	_	PUNCT	_	_	19	punct	_	Tag=O
 18	чтобы	_	SCONJ	_	_	19	mark	_	Tag=O
-19	установить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	Tag=R
+19	установить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	Tag=O
 20	личности	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	Tag=O
 21	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
@@ -542,7 +542,7 @@
 2	порядка	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Tag=O
 3	приказали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 4	прохожим	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	Tag=O
-5	отойти	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	Tag=R
+5	отойти	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	Tag=O
 6	и	_	CCONJ	_	_	7	cc	_	Tag=O
 7	вызвали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Tag=G
 8	медиков	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	Tag=O
@@ -634,11 +634,11 @@
 4	стратегический	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	Tag=O
 5	бомбардировщик-ракетоносец	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Tag=O
 6	с	_	ADP	_	_	8	case	_	Tag=O
-7	изменяемой	_	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	Tag=R
+7	изменяемой	_	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	Tag=O
 8	геометрией	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
 9	крыла	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	Tag=O
 10	,	_	PUNCT	_	_	1	punct	_	Tag=O
-11	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+11	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 12	самым	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	Tag=O
 13	крупным	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	Tag=O
 14	,	_	PUNCT	_	_	15	punct	_	Tag=O
@@ -663,10 +663,10 @@
 7	контракт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Tag=O
 8	от	_	ADP	_	_	9	case	_	Tag=O
 9	Министерства	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=O
-10	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=R
+10	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
 11	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
 12	на	_	ADP	_	_	13	case	_	Tag=O
-13	ремонт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	Tag=R
+13	ремонт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
 14	зенитно-ракетного	_	ADJ	_	Degree=Pos	15	amod	_	Tag=O
 15	комплекса	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
 16	«	_	PUNCT	_	_	17	punct	_	Tag=O
@@ -680,8 +680,8 @@
 # text = Подрядчик должен был заменить вышедшие из строя блоки, ячейки, платы и другие высокоточные механизмы вооружения.
 1	Подрядчик	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
 2	должен	_	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	Tag=O
-3	был	_	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	Tag=R
-4	заменить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	Tag=R
+3	был	_	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	Tag=O
+4	заменить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	Tag=O
 5	вышедшие	_	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	Tag=G
 6	из	_	ADP	_	_	7	case	_	Tag=lG
 7	строя	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Tag=lG
@@ -725,9 +725,9 @@
 3	«	_	PUNCT	_	_	4	punct	_	Tag=O
 4	Форт	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	Tag=O
 5	»	_	PUNCT	_	_	4	punct	_	Tag=O
-6	предназначен	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=R
+6	предназначен	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=O
 7	для	_	ADP	_	_	8	case	_	Tag=O
-8	установки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	Tag=R
+8	установки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	Tag=O
 9	на	_	ADP	_	_	11	case	_	Tag=O
 10	боевых	_	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	Tag=O
 11	кораблях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	Tag=O
@@ -794,7 +794,7 @@
 # text = Клубный рекорд остается за Майклом Гартнером — 17 матчей.
 1	Клубный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	Tag=O
 2	рекорд	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
-3	остается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+3	остается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 4	за	_	ADP	_	_	5	case	_	Tag=O
 5	Майклом	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	Tag=O
 6	Гартнером	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	flat:name	_	Tag=O
@@ -806,7 +806,7 @@
 # sent_id = 11_7
 # text = В соперничестве бомбардиров Овечкин занял пятое место с 42 (28+14) очками в 31 матче.
 1	В	_	ADP	_	_	2	case	_	Tag=O
-2	соперничестве	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	Tag=R
+2	соперничестве	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	Tag=O
 3	бомбардиров	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	Tag=O
 4	Овечкин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Tag=O
 5	занял	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
@@ -833,7 +833,7 @@
 4	180	_	NUM	_	_	5	nummod	_	Tag=O
 5	часов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	Tag=O
 6	обязательных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	Tag=O
-7	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=R
+7	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=O
 8	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 12_4
@@ -847,24 +847,24 @@
 7	так	_	ADV	_	Degree=Pos	11	mark	_	Tag=O
 8	как	_	SCONJ	_	_	7	fixed	_	Tag=O
 9	дверь	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	Tag=O
-10	была	_	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	Tag=R
-11	открыта	_	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	Tag=R
+10	была	_	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	Tag=O
+11	открыта	_	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	Tag=O
 12	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 12_8
 # text = «Согласно заключению ветеринарного врача, такса получила множественные переломы со смещением.
 1	«	_	PUNCT	_	_	8	punct	_	Tag=O
 2	Согласно	_	ADP	_	_	3	case	_	Tag=O
-3	заключению	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	Tag=R
+3	заключению	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	Tag=O
 4	ветеринарного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	Tag=O
 5	врача	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
 6	,	_	PUNCT	_	_	3	punct	_	Tag=O
 7	такса	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Tag=O
 8	получила	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 9	множественные	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	Tag=O
-10	переломы	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Tag=R
+10	переломы	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Tag=O
 11	со	_	ADP	_	_	12	case	_	Tag=O
-12	смещением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	Tag=R
+12	смещением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	Tag=O
 13	.	_	PUNCT	_	_	8	punct	_	Tag=O
 
 # sent_id = 12_10
@@ -877,22 +877,22 @@
 6	(	_	PUNCT	_	_	9	punct	_	Tag=O
 7	«	_	PUNCT	_	_	9	punct	_	Tag=O
 8	Жестокое	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	Tag=O
-9	обращение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	Tag=R
+9	обращение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	Tag=O
 10	с	_	ADP	_	_	11	case	_	Tag=O
 11	животными	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	9	nmod	_	Tag=O
 12	»	_	PUNCT	_	_	9	punct	_	Tag=O
 13	)	_	PUNCT	_	_	9	punct	_	Tag=O
 14	могут	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
-15	наказать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	Tag=R
+15	наказать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	Tag=O
 16	по-разному	_	ADV	_	Degree=Pos	15	advmod	_	Tag=O
 17	:	_	PUNCT	_	_	19	punct	_	Tag=O
 18	от	_	ADP	_	_	19	case	_	Tag=O
 19	штрафов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	Tag=O
 20	и	_	CCONJ	_	_	22	cc	_	Tag=O
 21	исправительных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	Tag=O
-22	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	Tag=R
+22	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	Tag=O
 23	до	_	ADP	_	_	24	case	_	Tag=O
-24	лишения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	Tag=R
+24	лишения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	Tag=O
 25	свободы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	Tag=O
 26	на	_	ADP	_	_	27	case	_	Tag=O
 27	срок	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	Tag=O
@@ -917,7 +917,7 @@
 9	своих	_	DET	_	Case=Gen|Number=Plur	10	det	_	Tag=O
 10	терминалов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	Tag=O
 11	,	_	PUNCT	_	_	12	punct	_	Tag=O
-12	установленных	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Tag=R
+12	установленных	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Tag=O
 13	в	_	ADP	_	_	14	case	_	Tag=O
 14	тысячах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	Tag=O
 15	продуктовых	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	Tag=O
@@ -978,7 +978,7 @@
 16	исками	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	Tag=O
 17	о	_	ADP	_	_	19	case	_	Tag=O
 18	принудительном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	Tag=O
-19	взыскании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	Tag=R
+19	взыскании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	Tag=O
 20	долга	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	Tag=O
 21	с	_	ADP	_	_	24	case	_	Tag=O
 22	российского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	Tag=O
@@ -1066,7 +1066,7 @@
 # sent_id = 16_5
 # text = Нападающий входит в тройку лучших бомбардиров НХЛ.
 1	Нападающий	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
-2	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+2	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 3	в	_	ADP	_	_	4	case	_	Tag=O
 4	тройку	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	Tag=O
 5	лучших	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	Tag=O
@@ -1081,16 +1081,16 @@
 2	проигнорировал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 3	обращение	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	Tag=G
 4	министра	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
-5	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=R
+5	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
 6	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
 7	Сергея	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	appos	_	Tag=O
 8	Шойгу	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	Tag=O
-9	обсудить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nmod	_	Tag=R
-10	ситуацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Tag=R
+9	обсудить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nmod	_	Tag=O
+10	ситуацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Tag=O
 11	вокруг	_	ADP	_	_	12	case	_	Tag=O
 12	Договора	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Tag=O
 13	о	_	ADP	_	_	14	case	_	Tag=O
-14	ликвидации	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	Tag=R
+14	ликвидации	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
 15	ракет	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	Tag=O
 16	малой	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Tag=O
 17	и	_	CCONJ	_	_	18	cc	_	Tag=O
@@ -1148,7 +1148,7 @@
 # text = Назван способ обнаружить F-35
 1	Назван	назвать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
 2	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	Tag=O
-3	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	obl	_	Tag=R
+3	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	obl	_	Tag=O
 4	F-35	F-35	PROPN	_	Foreign=Yes	3	flat:foreign	_	Tag=O
 
 
@@ -1173,20 +1173,20 @@
 16	-	-	PUNCT	_	_	15	punct	_	Tag=O
 17	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	conj	_	Tag=O
 18	можно	можно	ADV	_	Degree=Pos	0	root	_	Tag=O
-19	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	csubj	_	Tag=R
+19	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	csubj	_	Tag=O
 20	,	,	PUNCT	_	_	21	punct	_	Tag=O
-21	отследить	отследить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	conj	_	Tag=R
+21	отследить	отследить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	conj	_	Tag=O
 22	и	и	CCONJ	_	_	26	cc	_	Tag=O
 23	,	,	PUNCT	_	_	26	punct	_	Tag=O
 24	возможно	возможно	ADV	_	Degree=Pos	26	parataxis	_	Tag=O
 25	,	,	PUNCT	_	_	26	punct	_	Tag=O
-26	уничтожить	уничтожить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	conj	_	Tag=R
+26	уничтожить	уничтожить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	conj	_	Tag=O
 27	,	,	PUNCT	_	_	28	punct	_	Tag=O
-28	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	26	advcl	_	Tag=R
+28	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	26	advcl	_	Tag=O
 29	сетевые	сетевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	Tag=O
 30	системы	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obj	_	Tag=O
 31	и	и	CCONJ	_	_	32	cc	_	Tag=O
-32	слияние	слияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	conj	_	Tag=R
+32	слияние	слияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	conj	_	Tag=O
 33	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	32	nmod	_	Tag=O
 34	,	,	PUNCT	_	_	35	punct	_	Tag=O
 35	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	Tag=G
@@ -1201,7 +1201,7 @@
 1	Примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	Tag=O
 2	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	Tag=O
 3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	Tag=O
-4	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+4	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 5	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	Tag=O
 6	Integrated	Integrated	PROPN	_	Foreign=Yes	4	nsubj	_	Tag=O
 7	Air	Air	PROPN	_	Foreign=Yes	6	flat:foreign	_	Tag=O
@@ -1215,13 +1215,13 @@
 15	IBCS	IBCS	PROPN	_	Foreign=Yes	6	flat:foreign	_	Tag=O
 16	)	)	PUNCT	_	_	15	punct	_	Tag=O
 17	,	,	PUNCT	_	_	18	punct	_	Tag=O
-18	обеспечивающая	обеспечивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	Tag=R
-19	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	Tag=R
+18	обеспечивающая	обеспечивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	Tag=O
+19	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	Tag=O
 20	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	Tag=O
 21	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	Tag=O
 22	и	и	CCONJ	_	_	23	cc	_	Tag=O
 23	противовоздушной	противовоздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	conj	_	Tag=O
-24	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	Tag=R
+24	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	Tag=O
 25	(	(	PUNCT	_	_	26	punct	_	Tag=O
 26	ПРО	про	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	parataxis	_	Tag=O
 27	и	и	CCONJ	_	_	28	cc	_	Tag=O
@@ -1234,27 +1234,27 @@
 # sent_id = 4
 # text = Согласно публикации, подобная сетецентрическая интегрированная система управления огнем позволяет осуществлять сбор, идентификацию и устранение всех видов авиационных и ракетных угроз.
 1	Согласно	согласно	ADP	_	_	2	case	_	Tag=O
-2	публикации	публикация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	parataxis	_	Tag=R
+2	публикации	публикация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	parataxis	_	Tag=O
 3	,	,	PUNCT	_	_	2	punct	_	Tag=O
 4	подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	Tag=O
 5	сетецентрическая	сетецентрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	Tag=O
 6	интегрированная	интегрировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	Tag=O
 7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Tag=O
-8	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=R
-9	огнем	огонь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	Tag=R
-10	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
-11	осуществлять	осуществлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	Tag=R
-12	сбор	сбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Tag=R
+8	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=O
+9	огнем	огонь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
+10	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
+11	осуществлять	осуществлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	Tag=O
+12	сбор	сбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Tag=O
 13	,	,	PUNCT	_	_	14	punct	_	Tag=O
-14	идентификацию	идентификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	Tag=R
+14	идентификацию	идентификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	Tag=O
 15	и	и	CCONJ	_	_	16	cc	_	Tag=O
-16	устранение	устранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	conj	_	Tag=R
+16	устранение	устранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	conj	_	Tag=O
 17	всех	весь	DET	_	Case=Gen|Number=Plur	18	det	_	Tag=O
 18	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	Tag=O
 19	авиационных	авиационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	Tag=O
 20	и	и	CCONJ	_	_	21	cc	_	Tag=O
 21	ракетных	ракетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	conj	_	Tag=O
-22	угроз	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	Tag=R
+22	угроз	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	Tag=O
 23	.	.	PUNCT	_	_	10	punct	_	Tag=O
 
 
@@ -1266,27 +1266,27 @@
 4	,	,	PUNCT	_	_	17	punct	_	Tag=O
 5	что	что	SCONJ	_	_	17	mark	_	Tag=O
 6	после	после	ADP	_	_	7	case	_	Tag=O
-7	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	Tag=R
-8	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Tag=R
+7	определения	определение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	Tag=O
+8	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
 9	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	Tag=O
 10	,	,	PUNCT	_	_	11	punct	_	Tag=O
-11	объединяющая	объединять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	Tag=R
+11	объединяющая	объединять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	Tag=O
 12	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	11	obj	_	Tag=O
 13	из	из	ADP	_	_	15	case	_	Tag=O
 14	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	Tag=O
 15	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	Tag=O
 16	,	,	PUNCT	_	_	11	punct	_	Tag=O
-17	анализирует	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Tag=R
+17	анализирует	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Tag=O
 18	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	17	obj	_	Tag=O
 19	,	,	PUNCT	_	_	22	punct	_	Tag=O
 20	после	после	ADP	_	_	21	case	_	Tag=O
 21	чего	что	PRON	_	Case=Gen	22	obl	_	Tag=O
-22	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	Tag=R
+22	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	Tag=O
 23	наиболее	наиболее	ADV	_	Degree=Pos	24	obl	_	Tag=O
 24	эффективный	эффективный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	Tag=O
 25	способ	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	Tag=O
 26	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	27	nmod	_	Tag=O
-27	устранения	устранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	Tag=R
+27	устранения	устранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	Tag=O
 28	.	.	PUNCT	_	_	3	punct	_	Tag=O
 
 
@@ -1310,11 +1310,11 @@
 15	-	-	PUNCT	_	_	14	punct	_	Tag=O
 16	истребители	истребитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	Tag=O
 17	можно	можно	ADV	_	Degree=Pos	11	ccomp	_	Tag=O
-18	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	csubj	_	Tag=R
+18	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	csubj	_	Tag=O
 19	из	из	ADP	_	_	20	case	_	Tag=O
 20	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	Tag=O
 21	при	при	ADP	_	_	23	case	_	Tag=O
-22	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	fixed	_	Tag=R
+22	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	fixed	_	Tag=O
 23	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	Tag=O
 24	-	-	PUNCT	_	_	25	punct	_	Tag=O
 25	шпионов	шпион	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	appos	_	Tag=O
@@ -1340,7 +1340,7 @@
 14	РЛС	РЛС	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	Tag=O
 15	)	)	PUNCT	_	_	14	punct	_	Tag=O
 16	загоризонтного	загоризонтный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	Tag=O
-17	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Tag=R
+17	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Tag=O
 18	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	Tag=O
 19	«Контейнер»	«контейнер»	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	Tag=O
 20	с	с	ADP	_	_	22	case	_	Tag=O
@@ -1391,7 +1391,7 @@
 17	TwInvis	Twinvis	PROPN	_	Foreign=Yes	16	flat:foreign	_	Tag=O
 18	,	,	PUNCT	_	_	19	punct	_	Tag=O
 19	способную	способный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	acl	_	Tag=O
-20	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	Tag=R
+20	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	Tag=O
 21	F	F	PROPN	_	Foreign=Yes	20	flat:foreign	_	Tag=O
 22	-	-	PUNCT	_	_	23	punct	_	Tag=O
 23	35	35	NUM	_	_	21	nummod	_	Tag=O
@@ -1420,7 +1420,7 @@
 16	их	_	PRON	_	Animacy=Inan|Case=Acc|Number=Plur|Person=3	15	obj	_	Tag=O
 17	,	_	PUNCT	_	_	19	punct	_	Tag=O
 18	чтобы	_	SCONJ	_	_	19	mark	_	Tag=O
-19	установить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	Tag=R
+19	установить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	Tag=O
 20	личности	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	Tag=O
 21	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
@@ -1430,7 +1430,7 @@
 2	порядка	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Tag=O
 3	приказали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 4	прохожим	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	Tag=O
-5	отойти	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	Tag=R
+5	отойти	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	Tag=O
 6	и	_	CCONJ	_	_	7	cc	_	Tag=O
 7	вызвали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Tag=G
 8	медиков	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	Tag=O
@@ -1522,11 +1522,11 @@
 4	стратегический	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	Tag=O
 5	бомбардировщик-ракетоносец	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Tag=O
 6	с	_	ADP	_	_	8	case	_	Tag=O
-7	изменяемой	_	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	Tag=R
+7	изменяемой	_	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	Tag=O
 8	геометрией	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
 9	крыла	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	Tag=O
 10	,	_	PUNCT	_	_	1	punct	_	Tag=O
-11	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+11	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 12	самым	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	Tag=O
 13	крупным	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	Tag=O
 14	,	_	PUNCT	_	_	15	punct	_	Tag=O
@@ -1551,10 +1551,10 @@
 7	контракт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Tag=O
 8	от	_	ADP	_	_	9	case	_	Tag=O
 9	Министерства	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=O
-10	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=R
+10	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
 11	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
 12	на	_	ADP	_	_	13	case	_	Tag=O
-13	ремонт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	Tag=R
+13	ремонт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
 14	зенитно-ракетного	_	ADJ	_	Degree=Pos	15	amod	_	Tag=O
 15	комплекса	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
 16	«	_	PUNCT	_	_	17	punct	_	Tag=O
@@ -1568,8 +1568,8 @@
 # text = Подрядчик должен был заменить вышедшие из строя блоки, ячейки, платы и другие высокоточные механизмы вооружения.
 1	Подрядчик	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
 2	должен	_	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	Tag=O
-3	был	_	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	Tag=R
-4	заменить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	Tag=R
+3	был	_	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	Tag=O
+4	заменить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	Tag=O
 5	вышедшие	_	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	Tag=G
 6	из	_	ADP	_	_	7	case	_	Tag=lG
 7	строя	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Tag=lG
@@ -1613,9 +1613,9 @@
 3	«	_	PUNCT	_	_	4	punct	_	Tag=O
 4	Форт	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	Tag=O
 5	»	_	PUNCT	_	_	4	punct	_	Tag=O
-6	предназначен	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=R
+6	предназначен	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=O
 7	для	_	ADP	_	_	8	case	_	Tag=O
-8	установки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	Tag=R
+8	установки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	Tag=O
 9	на	_	ADP	_	_	11	case	_	Tag=O
 10	боевых	_	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	Tag=O
 11	кораблях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	Tag=O
@@ -1682,7 +1682,7 @@
 # text = Клубный рекорд остается за Майклом Гартнером — 17 матчей.
 1	Клубный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	Tag=O
 2	рекорд	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
-3	остается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+3	остается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 4	за	_	ADP	_	_	5	case	_	Tag=O
 5	Майклом	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	Tag=O
 6	Гартнером	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	flat:name	_	Tag=O
@@ -1694,7 +1694,7 @@
 # sent_id = 11_7
 # text = В соперничестве бомбардиров Овечкин занял пятое место с 42 (28+14) очками в 31 матче.
 1	В	_	ADP	_	_	2	case	_	Tag=O
-2	соперничестве	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	Tag=R
+2	соперничестве	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	Tag=O
 3	бомбардиров	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	Tag=O
 4	Овечкин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Tag=O
 5	занял	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
@@ -1721,7 +1721,7 @@
 4	180	_	NUM	_	_	5	nummod	_	Tag=O
 5	часов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	Tag=O
 6	обязательных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	Tag=O
-7	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=R
+7	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=O
 8	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 12_4
@@ -1735,24 +1735,24 @@
 7	так	_	ADV	_	Degree=Pos	11	mark	_	Tag=O
 8	как	_	SCONJ	_	_	7	fixed	_	Tag=O
 9	дверь	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	Tag=O
-10	была	_	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	Tag=R
-11	открыта	_	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	Tag=R
+10	была	_	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	Tag=O
+11	открыта	_	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	Tag=O
 12	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 12_8
 # text = «Согласно заключению ветеринарного врача, такса получила множественные переломы со смещением.
 1	«	_	PUNCT	_	_	8	punct	_	Tag=O
 2	Согласно	_	ADP	_	_	3	case	_	Tag=O
-3	заключению	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	Tag=R
+3	заключению	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	Tag=O
 4	ветеринарного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	Tag=O
 5	врача	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
 6	,	_	PUNCT	_	_	3	punct	_	Tag=O
 7	такса	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Tag=O
 8	получила	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 9	множественные	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	Tag=O
-10	переломы	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Tag=R
+10	переломы	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	Tag=O
 11	со	_	ADP	_	_	12	case	_	Tag=O
-12	смещением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	Tag=R
+12	смещением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	Tag=O
 13	.	_	PUNCT	_	_	8	punct	_	Tag=O
 
 # sent_id = 12_10
@@ -1765,22 +1765,22 @@
 6	(	_	PUNCT	_	_	9	punct	_	Tag=O
 7	«	_	PUNCT	_	_	9	punct	_	Tag=O
 8	Жестокое	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	Tag=O
-9	обращение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	Tag=R
+9	обращение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	Tag=O
 10	с	_	ADP	_	_	11	case	_	Tag=O
 11	животными	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	9	nmod	_	Tag=O
 12	»	_	PUNCT	_	_	9	punct	_	Tag=O
 13	)	_	PUNCT	_	_	9	punct	_	Tag=O
 14	могут	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
-15	наказать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	Tag=R
+15	наказать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	Tag=O
 16	по-разному	_	ADV	_	Degree=Pos	15	advmod	_	Tag=O
 17	:	_	PUNCT	_	_	19	punct	_	Tag=O
 18	от	_	ADP	_	_	19	case	_	Tag=O
 19	штрафов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	Tag=O
 20	и	_	CCONJ	_	_	22	cc	_	Tag=O
 21	исправительных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	Tag=O
-22	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	Tag=R
+22	работ	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	Tag=O
 23	до	_	ADP	_	_	24	case	_	Tag=O
-24	лишения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	Tag=R
+24	лишения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	Tag=O
 25	свободы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	Tag=O
 26	на	_	ADP	_	_	27	case	_	Tag=O
 27	срок	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	Tag=O
@@ -1805,7 +1805,7 @@
 9	своих	_	DET	_	Case=Gen|Number=Plur	10	det	_	Tag=O
 10	терминалов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	Tag=O
 11	,	_	PUNCT	_	_	12	punct	_	Tag=O
-12	установленных	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Tag=R
+12	установленных	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	Tag=O
 13	в	_	ADP	_	_	14	case	_	Tag=O
 14	тысячах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	Tag=O
 15	продуктовых	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	Tag=O
@@ -1866,7 +1866,7 @@
 16	исками	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	Tag=O
 17	о	_	ADP	_	_	19	case	_	Tag=O
 18	принудительном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	Tag=O
-19	взыскании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	Tag=R
+19	взыскании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	Tag=O
 20	долга	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	Tag=O
 21	с	_	ADP	_	_	24	case	_	Tag=O
 22	российского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	Tag=O
@@ -1954,7 +1954,7 @@
 # sent_id = 16_5
 # text = Нападающий входит в тройку лучших бомбардиров НХЛ.
 1	Нападающий	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
-2	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+2	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 3	в	_	ADP	_	_	4	case	_	Tag=O
 4	тройку	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	Tag=O
 5	лучших	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	Tag=O
@@ -1969,16 +1969,16 @@
 2	проигнорировал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 3	обращение	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	Tag=G
 4	министра	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
-5	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=R
+5	обороны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
 6	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
 7	Сергея	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	appos	_	Tag=O
 8	Шойгу	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	Tag=O
-9	обсудить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nmod	_	Tag=R
-10	ситуацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Tag=R
+9	обсудить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nmod	_	Tag=O
+10	ситуацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Tag=O
 11	вокруг	_	ADP	_	_	12	case	_	Tag=O
 12	Договора	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Tag=O
 13	о	_	ADP	_	_	14	case	_	Tag=O
-14	ликвидации	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	Tag=R
+14	ликвидации	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
 15	ракет	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	Tag=O
 16	малой	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Tag=O
 17	и	_	CCONJ	_	_	18	cc	_	Tag=O
@@ -2076,10 +2076,10 @@
 2	счету	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	root	_	Tag=O
 3	тяжеловеса	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Tag=O
 4	18	_	NUM	_	_	5	nummod	_	Tag=O
-5	побед	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nsubj	_	Tag=R
+5	побед	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nsubj	_	Tag=O
 6	и	_	CCONJ	_	_	8	cc	_	Tag=O
 7	13	_	NUM	_	_	8	nummod	_	Tag=O
-8	поражений	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	conj	_	Tag=R
+8	поражений	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	conj	_	Tag=O
 9	.	_	PUNCT	_	_	2	punct	_	Tag=O
 
 # sent_id = 46_7
@@ -2090,7 +2090,7 @@
 4	чемпион	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Tag=O
 5	Абсолютного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Tag=O
 6	бойцовского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Tag=O
-7	чемпионата	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Tag=R
+7	чемпионата	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Tag=O
 8	(	_	PUNCT	_	_	9	punct	_	Tag=O
 9	UFC	_	PROPN	_	Foreign=Yes	7	appos	_	Tag=O
 10	)	_	PUNCT	_	_	9	punct	_	Tag=O
@@ -2222,14 +2222,14 @@
 3	Олейника	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Tag=O
 4	наибольшее	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	Tag=O
 5	количество	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Tag=O
-6	побед	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=R
+6	побед	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=O
 7	после	_	ADP	_	_	8	case	_	Tag=O
-8	сдачи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Tag=R
+8	сдачи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Tag=O
 9	соперника	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
 10	(	_	PUNCT	_	_	11	punct	_	Tag=O
-11	удушением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	parataxis	_	Tag=R
+11	удушением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	parataxis	_	Tag=O
 12	или	_	CCONJ	_	_	13	cc	_	Tag=O
-13	болевым	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	Tag=R
+13	болевым	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	Tag=O
 14	)	_	PUNCT	_	_	11	punct	_	Tag=O
 15	—	_	PUNCT	_	_	16	punct	_	Tag=O
 16	45	_	NUM	_	_	5	nummod	_	Tag=O
@@ -2239,12 +2239,12 @@
 # text = Также россиянин является рекордсменом по количеству профессиональных боев за год — 19.
 1	Также	_	ADV	_	Degree=Pos	3	advmod	_	Tag=O
 2	россиянин	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
-3	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+3	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 4	рекордсменом	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	xcomp	_	Tag=O
 5	по	_	ADP	_	_	6	case	_	Tag=O
 6	количеству	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	Tag=O
 7	профессиональных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	Tag=O
-8	боев	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Tag=R
+8	боев	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Tag=O
 9	за	_	ADP	_	_	10	case	_	Tag=O
 10	год	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
 11	—	_	PUNCT	_	_	12	punct	_	Tag=O
@@ -2273,16 +2273,16 @@
 # sent_id = 48_7
 # text = Олейник выступает в Абсолютном бойцовском чемпионате (UFC) и входит в восьмерку ее лучших тяжеловесов.
 1	Олейник	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
-2	выступает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+2	выступает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 3	в	_	ADP	_	_	6	case	_	Tag=O
 4	Абсолютном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	Tag=O
 5	бойцовском	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	Tag=O
-6	чемпионате	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Tag=R
+6	чемпионате	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Tag=O
 7	(	_	PUNCT	_	_	8	punct	_	Tag=O
 8	UFC	_	PROPN	_	Foreign=Yes	6	appos	_	Tag=O
 9	)	_	PUNCT	_	_	8	punct	_	Tag=O
 10	и	_	CCONJ	_	_	11	cc	_	Tag=O
-11	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Tag=R
+11	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Tag=O
 12	в	_	ADP	_	_	13	case	_	Tag=O
 13	восьмерку	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	Tag=O
 14	ее	_	DET	_	_	16	det	_	Tag=O
@@ -2319,13 +2319,13 @@
 2	за	_	ADP	_	_	3	case	_	Tag=O
 3	карьеру	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	Tag=O
 4	Олейник	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Tag=O
-5	одержал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+5	одержал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 6	57	_	NUM	_	_	7	nummod	_	Tag=O
-7	побед	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obj	_	Tag=R
+7	побед	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obj	_	Tag=O
 8	и	_	CCONJ	_	_	9	cc	_	Tag=O
-9	потерпел	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Tag=R
+9	потерпел	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Tag=O
 10	11	_	NUM	_	_	11	nummod	_	Tag=O
-11	поражений	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obj	_	Tag=R
+11	поражений	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obj	_	Tag=O
 12	.	_	PUNCT	_	_	5	punct	_	Tag=O
 
 # newdoc id = 49
@@ -2361,7 +2361,7 @@
 8	заявил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 9	о	_	ADP	_	_	10	case	_	Tag=O
 10	намерении	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	Tag=O
-11	выйти	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nmod	_	Tag=R
+11	выйти	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nmod	_	Tag=O
 12	из	_	ADP	_	_	13	case	_	Tag=O
 13	ДРСМД	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	Tag=O
 14	.	_	PUNCT	_	_	8	punct	_	Tag=O
@@ -2378,7 +2378,7 @@
 8	обвинил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 9	Россию	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Tag=O
 10	в	_	ADP	_	_	11	case	_	Tag=O
-11	несоблюдении	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	Tag=R
+11	несоблюдении	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	Tag=O
 12	договора	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Tag=O
 13	.	_	PUNCT	_	_	8	punct	_	Tag=O
 
@@ -2548,7 +2548,7 @@
 
 # sent_id = 52_12
 # text = Специализируется на сфере развлечений.
-1	Специализируется	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+1	Специализируется	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 2	на	_	ADP	_	_	3	case	_	Tag=O
 3	сфере	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	Tag=O
 4	развлечений	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	Tag=O
@@ -2557,17 +2557,17 @@
 # sent_id = 52_13
 # text = Она насчитывает около четырех тысяч человек, что позволяет труппам давать представления одновременно в нескольких странах.
 1	Она	_	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	Tag=O
-2	насчитывает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+2	насчитывает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 3	около	_	ADP	_	_	6	case	_	Tag=O
 4	четырех	_	NUM	_	Case=Gen	5	nummod	_	Tag=O
 5	тысяч	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nummod	_	Tag=O
 6	человек	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	Tag=O
 7	,	_	PUNCT	_	_	9	punct	_	Tag=O
 8	что	_	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	Tag=O
-9	позволяет	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	Tag=R
+9	позволяет	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	Tag=O
 10	труппам	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	iobj	_	Tag=O
 11	давать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	Tag=O
-12	представления	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Tag=R
+12	представления	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Tag=O
 13	одновременно	_	ADV	_	Degree=Pos	11	advmod	_	Tag=O
 14	в	_	ADP	_	_	16	case	_	Tag=O
 15	нескольких	_	NUM	_	Case=Loc	16	nummod	_	Tag=O
@@ -2610,7 +2610,7 @@
 1	Асомов	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
 2	умер	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 3	от	_	ADP	_	_	4	case	_	Tag=O
-4	болезни	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	Tag=R
+4	болезни	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	Tag=O
 5	сердца	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Tag=O
 6	на	_	ADP	_	_	8	case	_	Tag=O
 7	56-м	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	Tag=O
@@ -2729,7 +2729,7 @@
 # text = Площадь дома составляет 6,8 тысячи квадратных футов (около 630 квадратных метров), в нем шесть спален, гостиная с панорамным видом и столовая с баром.
 1	Площадь	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Tag=O
 2	дома	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Tag=O
-3	составляет	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+3	составляет	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 4	6,8	_	NUM	_	_	5	nummod	_	Tag=O
 5	тысячи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nummod:gov	_	Tag=O
 6	квадратных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	Tag=O
@@ -2760,7 +2760,7 @@
 # text = На территории есть открытый бассейн.
 1	На	_	ADP	_	_	2	case	_	Tag=O
 2	территории	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	Tag=O
-3	есть	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+3	есть	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 4	открытый	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	Tag=O
 5	бассейн	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
 6	.	_	PUNCT	_	_	3	punct	_	Tag=O
@@ -2778,7 +2778,7 @@
 9	выставлен	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
 10	особняк	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	Tag=O
 11	,	_	PUNCT	_	_	12	punct	_	Tag=O
-12	принадлежащий	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	_	Tag=R
+12	принадлежащий	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	_	Tag=O
 13	модельеру	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	Tag=O
 14	Кельвину	_	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	appos	_	Tag=O
 15	Кляйну	_	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	flat:name	_	Tag=O
@@ -2903,7 +2903,7 @@
 5	рассказали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 6	,	_	PUNCT	_	_	8	punct	_	Tag=O
 7	как	_	ADV	_	Degree=Pos	8	advmod	_	Tag=O
-8	выбрать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	Tag=R
+8	выбрать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	Tag=O
 9	игристое	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	Tag=O
 10	вино	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Tag=O
 11	к	_	ADP	_	_	13	case	_	Tag=O
@@ -2925,7 +2925,7 @@
 10	проще	_	ADJ	_	Degree=Cmp	5	ccomp	_	Tag=O
 11	и	_	CCONJ	_	_	12	cc	_	Tag=O
 12	дешевле	_	ADJ	_	Degree=Cmp	10	conj	_	Tag=O
-13	сделать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	Tag=R
+13	сделать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	Tag=O
 14	самостоятельно	_	ADV	_	Degree=Pos	13	advmod	_	Tag=O
 15	в	_	ADP	_	_	17	case	_	Tag=O
 16	домашних	_	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	Tag=O
@@ -2963,7 +2963,7 @@
 17	японской	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	Tag=O
 18	и	_	CCONJ	_	_	19	cc	_	Tag=O
 19	китайской	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	Tag=O
-20	угрозами	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	Tag=R
+20	угрозами	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	Tag=O
 21	.	_	PUNCT	_	_	6	punct	_	Tag=O
 
 # newdoc id = 68
@@ -2985,7 +2985,7 @@
 2	Кот	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Tag=O
 3	тут	_	ADV	_	Degree=Pos	5	advmod	_	Tag=O
 4	же	_	PART	_	_	3	advmod	_	Tag=O
-5	откликается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+5	откликается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 6	.	_	PUNCT	_	_	5	punct	_	Tag=O
 
 # sent_id = 68_5
@@ -2994,17 +2994,17 @@
 2	шесть	_	NUM	_	Case=Acc	3	nummod:gov	_	Tag=O
 3	утра	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	Tag=O
 4	он	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Tag=O
-5	просит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+5	просит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 6	есть	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	Tag=O
 7	—	_	PUNCT	_	_	8	punct	_	Tag=O
-8	подходит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	Tag=R
+8	подходит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	Tag=O
 9	,	_	PUNCT	_	_	10	punct	_	Tag=O
-10	трогает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Tag=R
+10	трогает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Tag=O
 11	лапой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	iobj	_	Tag=O
 12	за	_	ADP	_	_	13	case	_	Tag=O
 13	плечо	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	Tag=O
 14	и	_	CCONJ	_	_	15	cc	_	Tag=O
-15	начинает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Tag=R
+15	начинает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Tag=O
 16	мяукать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	Tag=O
 17	»	_	PUNCT	_	_	16	punct	_	Tag=O
 18	,	_	PUNCT	_	_	20	punct	_	Tag=O
@@ -3017,7 +3017,7 @@
 25	,	_	PUNCT	_	_	28	punct	_	Tag=O
 26	что	_	SCONJ	_	_	28	mark	_	Tag=O
 27	кот	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	Tag=O
-28	понимает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	Tag=R
+28	понимает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	Tag=O
 29	по-японски	_	ADV	_	Degree=Pos	28	advmod	_	Tag=O
 30	.	_	PUNCT	_	_	5	punct	_	Tag=O
 
@@ -3063,11 +3063,11 @@
 10	калькуляторе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	Tag=O
 11	изменились	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
 12	кнопки	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Tag=O
-13	возведения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Tag=R
+13	возведения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Tag=O
 14	в	_	ADP	_	_	15	case	_	Tag=O
 15	степень	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	Tag=O
 16	и	_	CCONJ	_	_	17	cc	_	Tag=O
-17	извлечения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	Tag=R
+17	извлечения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	Tag=O
 18	корня	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
 19	.	_	PUNCT	_	_	11	punct	_	Tag=O
 
@@ -3076,7 +3076,7 @@
 1	Сейчас	_	ADV	_	Degree=Pos	4	advmod	_	Tag=O
 2	иконки	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Tag=O
 3	не	_	PART	_	Polarity=Neg	4	advmod	_	Tag=O
-4	совпадают	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+4	совпадают	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 5	по	_	ADP	_	_	6	case	_	Tag=O
 6	вертикали	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	Tag=O
 7	и	_	CCONJ	_	_	8	cc	_	Tag=O
@@ -3089,7 +3089,7 @@
 # sent_id = 70_3
 # text = Клавиша возведения в степень стала примерно на пиксель больше, а извлечения корня, наоборот, уменьшилась.
 1	Клавиша	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Tag=O
-2	возведения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	Tag=R
+2	возведения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	Tag=O
 3	в	_	ADP	_	_	4	case	_	Tag=O
 4	степень	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	Tag=O
 5	стала	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
@@ -3099,7 +3099,7 @@
 9	больше	_	ADJ	_	Degree=Cmp	5	xcomp	_	Tag=lG
 10	,	_	PUNCT	_	_	17	punct	_	Tag=O
 11	а	_	CCONJ	_	_	17	cc	_	Tag=O
-12	извлечения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nsubj	_	Tag=R
+12	извлечения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nsubj	_	Tag=O
 13	корня	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Tag=O
 14	,	_	PUNCT	_	_	15	punct	_	Tag=O
 15	наоборот	_	ADV	_	Degree=Pos	17	parataxis	_	Tag=O
@@ -3114,10 +3114,10 @@
 3	YouTube	_	X	_	Foreign=Yes	2	appos	_	Tag=O
 4	Rewind	_	X	_	Foreign=Yes	3	flat:foreign	_	Tag=O
 5	,	_	PUNCT	_	_	6	punct	_	Tag=O
-6	рассказывающее	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	acl	_	Tag=R
+6	рассказывающее	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	acl	_	Tag=O
 7	о	_	ADP	_	_	9	case	_	Tag=O
 8	главных	_	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	Tag=O
-9	событиях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	Tag=R
+9	событиях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	Tag=O
 10	видеохостинга	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Tag=O
 11	в	_	ADP	_	_	13	case	_	Tag=O
 12	2018	_	ADJ	_	_	13	amod	_	Tag=O
@@ -3141,7 +3141,7 @@
 8	миллиона	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	Tag=O
 9	,	_	PUNCT	_	_	11	punct	_	Tag=O
 10	а	_	CCONJ	_	_	11	cc	_	Tag=O
-11	просмотров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	Tag=R
+11	просмотров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	Tag=O
 12	—	_	PUNCT	_	_	14	punct	_	Tag=O
 13	125	_	NUM	_	_	14	nummod	_	Tag=O
 14	миллионов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	orphan	_	Tag=O
@@ -3175,7 +3175,7 @@
 11	при	_	ADP	_	_	13	case	_	Tag=O
 12	2	_	NUM	_	_	13	nummod:gov	_	Tag=O
 13	миллиардах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	nummod	_	Tag=O
-14	просмотров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	Tag=R
+14	просмотров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	Tag=O
 15	.	_	PUNCT	_	_	3	punct	_	Tag=O
 
 # sent_id = 73_1
@@ -3235,7 +3235,7 @@
 9	США	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	Tag=O
 10	«	_	PUNCT	_	_	11	punct	_	Tag=O
 11	можно	_	ADV	_	Degree=Pos	3	ccomp	_	Tag=O
-12	прокормить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	Tag=R
+12	прокормить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	Tag=O
 13	Африку	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Tag=O
 14	»	_	PUNCT	_	_	11	punct	_	Tag=O
 15	.	_	PUNCT	_	_	3	punct	_	Tag=O
@@ -3250,7 +3250,7 @@
 6	геометрией	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
 7	крыла	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Tag=O
 8	Ту-160	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	Tag=O
-9	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+9	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 10	самым	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Tag=O
 11	крупным	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	Tag=O
 12	,	_	PUNCT	_	_	13	punct	_	Tag=O
@@ -3270,10 +3270,10 @@
 2	№	_	SYM	_	_	1	nummod:entity	_	Tag=O
 3	1	_	NUM	_	_	2	appos	_	Tag=O
 4	по-прежнему	_	ADV	_	Degree=Pos	5	advmod	_	Tag=O
-5	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+5	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 6	Россия	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Tag=O
 7	,	_	PUNCT	_	_	8	punct	_	Tag=O
-8	имеющая	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	Tag=R
+8	имеющая	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	Tag=O
 9	около	_	ADP	_	_	13	case	_	Tag=O
 10	1000	_	NUM	_	_	13	nummod	_	Tag=O
 11	межконтинентальных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	Tag=O
@@ -3419,7 +3419,7 @@
 8	подземные	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	Tag=O
 9	классы	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	Tag=O
 10	для	_	ADP	_	_	11	case	_	Tag=O
-11	подготовки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=R
+11	подготовки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
 12	боевиков	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Tag=O
 13	.	_	PUNCT	_	_	3	punct	_	Tag=O
 
@@ -3435,8 +3435,8 @@
 8	трехдневный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	Tag=O
 9	срок	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	Tag=O
 10	на	_	ADP	_	_	11	case	_	Tag=O
-11	ликвидацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	Tag=R
-12	оставшихся	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	Tag=R
+11	ликвидацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	Tag=O
+12	оставшихся	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	amod	_	Tag=O
 13	экстремистов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Tag=O
 14	.	_	PUNCT	_	_	7	punct	_	Tag=O
 
@@ -3486,13 +3486,13 @@
 19	и	_	CCONJ	_	_	20	cc	_	Tag=O
 20	лицами	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	18	conj	_	Tag=O
 21	,	_	PUNCT	_	_	22	punct	_	Tag=O
-22	находящимися	_	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	acl	_	Tag=R
+22	находящимися	_	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	acl	_	Tag=O
 23	в	_	ADP	_	_	24	case	_	Tag=O
 24	США	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	Tag=O
 25	под	_	ADP	_	_	26	case	_	Tag=O
-26	подозрением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	Tag=R
+26	подозрением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	Tag=O
 27	в	_	ADP	_	_	28	case	_	Tag=O
-28	отмывании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	nmod	_	Tag=R
+28	отмывании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	nmod	_	Tag=O
 29	незаконных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	Tag=O
 30	денег	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	Tag=O
 31	.	_	PUNCT	_	_	17	punct	_	Tag=O
@@ -3528,15 +3528,15 @@
 # sent_id = 739155_6
 # text = "Борьба с коррупцией, защита демократии и законности остаются приоритетами для Президента Российской Федерации.
 1	"	_	PUNCT	_	_	10	punct	_	Tag=O
-2	Борьба	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Tag=R
+2	Борьба	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Tag=O
 3	с	_	ADP	_	_	4	case	_	Tag=O
 4	коррупцией	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	Tag=O
 5	,	_	PUNCT	_	_	6	punct	_	Tag=O
-6	защита	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	Tag=R
+6	защита	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	Tag=O
 7	демократии	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Tag=O
 8	и	_	CCONJ	_	_	9	cc	_	Tag=O
 9	законности	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	Tag=O
-10	остаются	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+10	остаются	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 11	приоритетами	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	xcomp	_	Tag=O
 12	для	_	ADP	_	_	13	case	_	Tag=O
 13	Президента	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Tag=O
@@ -3651,7 +3651,7 @@
 1	В	_	ADP	_	_	2	case	_	Tag=O
 2	состав	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Tag=O
 3	делегации	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Tag=O
-4	входят	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+4	входят	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 5	также	_	ADV	_	Degree=Pos	6	advmod	_	Tag=O
 6	заместители	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Tag=O
 7	руководителей	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Tag=O
@@ -3696,7 +3696,7 @@
 9	напали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 10	на	_	ADP	_	_	11	case	_	Tag=O
 11	пункт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	Tag=O
-12	обмена	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Tag=R
+12	обмена	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Tag=O
 13	валюты	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
 14	"	_	PUNCT	_	_	15	punct	_	Tag=O
 15	Юхисбанка	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	Tag=O
@@ -3851,7 +3851,7 @@
 14	о	_	ADP	_	_	16	case	_	Tag=O
 15	новых	_	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	Tag=O
 16	правилах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	Tag=O
-17	ввоза	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Tag=R
+17	ввоза	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Tag=O
 18	в	_	ADP	_	_	19	case	_	Tag=O
 19	Россию	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	Tag=O
 20	автомобилей	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	Tag=O
@@ -3870,7 +3870,7 @@
 3	же	_	PART	_	_	2	advmod	_	Tag=O
 4	передал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
 5	пакет	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Tag=O
-6	оказавшимся	_	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	Tag=R
+6	оказавшимся	_	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	Tag=O
 7	поблизости	_	ADV	_	Degree=Pos	6	advmod	_	Tag=O
 8	военнослужащим	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	Tag=O
 9	,	_	PUNCT	_	_	11	punct	_	Tag=O
@@ -3894,7 +3894,7 @@
 11	,	_	PUNCT	_	_	2	punct	_	Tag=O
 12	в	_	ADP	_	_	13	case	_	Tag=O
 13	пакете	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	Tag=O
-14	оказался	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+14	оказался	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 15	"	_	PUNCT	_	_	17	punct	_	Tag=O
 16	странный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	Tag=O
 17	набор	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	Tag=O
@@ -3904,7 +3904,7 @@
 21	среди	_	ADP	_	_	23	case	_	Tag=O
 22	обычной	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	Tag=O
 23	картошки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	Tag=O
-24	лежали	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	Tag=R
+24	лежали	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	Tag=O
 25	часы-будильник	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	Tag=O
 26	и	_	CCONJ	_	_	27	cc	_	Tag=O
 27	моток	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	conj	_	Tag=O
@@ -3932,7 +3932,7 @@
 5	было	_	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	Tag=lG
 6	принято	_	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=lG
 7	решение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	Tag=G
-8	включить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nmod	_	Tag=R
+8	включить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nmod	_	Tag=O
 9	Российскую	_	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	Tag=O
 10	Федерацию	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Tag=O
 11	и	_	CCONJ	_	_	12	cc	_	Tag=O
@@ -3975,7 +3975,7 @@
 7	с	_	ADP	_	_	8	case	_	Tag=O
 8	просьбой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	Tag=O
 9	своевременно	_	ADV	_	Degree=Pos	10	advmod	_	Tag=O
-10	сообщать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nmod	_	Tag=R
+10	сообщать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nmod	_	Tag=O
 11	обо	_	ADP	_	_	15	case	_	Tag=O
 12	всех	_	DET	_	Case=Loc|Number=Plur	15	det	_	Tag=O
 13	бесхозных	_	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	Tag=O
@@ -3987,7 +3987,7 @@
 19	,	_	PUNCT	_	_	22	punct	_	Tag=O
 20	а	_	CCONJ	_	_	22	cc	_	Tag=O
 21	также	_	ADV	_	Degree=Pos	20	fixed	_	Tag=O
-22	проявить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	Tag=R
+22	проявить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	Tag=O
 23	повышенную	_	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	Tag=O
 24	бдительность	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	Tag=O
 25	.	_	PUNCT	_	_	4	punct	_	Tag=O
@@ -3998,8 +3998,8 @@
 2	Манежную	_	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	Tag=O
 3	площадь	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	Tag=O
 4	для	_	ADP	_	_	5	case	_	Tag=O
-5	проведения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	Tag=R
-6	осмотра	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Tag=R
+5	проведения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	Tag=O
+6	осмотра	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Tag=O
 7	все	_	PART	_	_	9	advmod	_	Tag=O
 8	же	_	PART	_	_	7	fixed	_	Tag=O
 9	выехали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
@@ -4015,7 +4015,7 @@
 4	учредительно-восстановительная	_	ADJ	_	Degree=Pos	5	amod	_	Tag=O
 5	конференция	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Tag=G
 6	общественно-регионального	_	ADJ	_	Degree=Pos	7	amod	_	Tag=O
-7	объединения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Tag=R
+7	объединения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Tag=O
 8	"	_	PUNCT	_	_	10	punct	_	Tag=O
 9	Народный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
 10	контроль	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	Tag=O
@@ -4032,8 +4032,8 @@
 4	перед	_	ADP	_	_	5	case	_	Tag=O
 5	собой	_	PRON	_	Case=Ins	3	obl	_	Tag=O
 6	задачу	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	Tag=G
-7	возобновить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nmod	_	Tag=R
-8	действия	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Tag=R
+7	возобновить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nmod	_	Tag=O
+8	действия	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Tag=O
 9	Комитета	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
 10	на	_	ADP	_	_	11	case	_	Tag=O
 11	территории	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	Tag=O
@@ -4067,7 +4067,7 @@
 13	,	_	PUNCT	_	_	14	punct	_	Tag=O
 14	начальника	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	appos	_	Tag=O
 15	штаба	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Tag=O
-16	поддержки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	Tag=R
+16	поддержки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	Tag=O
 17	Адыге-Хабльского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	Tag=O
 18	района	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Tag=O
 19	Мурата	_	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	appos	_	Tag=O
@@ -4369,14 +4369,14 @@
 13	Каспийского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	Tag=O
 14	моря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Tag=O
 15	,	_	PUNCT	_	_	16	punct	_	Tag=O
-16	относящегося	_	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	Tag=R
+16	относящегося	_	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	Tag=O
 17	к	_	ADP	_	_	18	case	_	Tag=O
 18	территории	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	Tag=O
 19	Азербайджана	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Tag=O
 20	,	_	PUNCT	_	_	16	punct	_	Tag=O
 21	которые	_	PRON	_	Case=Nom|Number=Plur	22	nsubj	_	Tag=O
-22	могут	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	Tag=R
-23	превратить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	Tag=R
+22	могут	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	Tag=O
+23	превратить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	Tag=O
 24	страну	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	Tag=O
 25	в	_	ADP	_	_	27	case	_	Tag=O
 26	крупнейшего	_	ADJ	_	Animacy=Anim|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	27	amod	_	Tag=O
@@ -4402,7 +4402,7 @@
 14	,	_	PUNCT	_	_	13	punct	_	Tag=O
 15	запасы	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	Tag=O
 16	газа	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Tag=O
-17	составляют	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	Tag=R
+17	составляют	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	Tag=O
 18	минимум	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	compound	_	Tag=O
 19	четыреста	_	NUM	_	Case=Acc	20	nummod:gov	_	Tag=O
 20	миллиардов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nummod	_	Tag=O
@@ -4419,17 +4419,17 @@
 5	солнечные	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	Tag=O
 6	батареи	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	Tag=O
 7	достаточно	_	ADV	_	Degree=Pos	8	advmod	_	Tag=O
-8	ориентированны	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=R
+8	ориентированны	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=O
 9	на	_	ADP	_	_	10	case	_	Tag=O
 10	Солнце	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	Tag=O
 11	,	_	PUNCT	_	_	13	punct	_	Tag=O
 12	чтобы	_	SCONJ	_	_	13	mark	_	Tag=O
-13	выдавать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	advcl	_	Tag=R
+13	выдавать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	advcl	_	Tag=O
 14	необходимое	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	Tag=O
 15	для	_	ADP	_	_	17	case	_	Tag=O
 16	нормальной	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	Tag=O
-17	работы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	Tag=R
-18	оставшихся	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	20	amod	_	Tag=R
+17	работы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	Tag=O
+18	оставшихся	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	20	amod	_	Tag=O
 19	бортовых	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	Tag=O
 20	систем	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	Tag=O
 21	количество	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	Tag=O
@@ -4462,7 +4462,7 @@
 1	На	_	ADP	_	_	3	case	_	Tag=O
 2	этих	_	DET	_	Case=Loc|Number=Plur	3	det	_	Tag=O
 3	маршрутах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	Tag=O
-4	используются	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Tag=R
+4	используются	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Tag=O
 5	ближнемагистральные	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	Tag=O
 6	самолеты	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	Tag=O
 7	Ту-134	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	Tag=O
@@ -4500,7 +4500,7 @@
 5	проблеме	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
 6	безопасности	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
 7	и	_	CCONJ	_	_	8	cc	_	Tag=O
-8	разоружения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	Tag=R
+8	разоружения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	Tag=O
 9	,	_	PUNCT	_	_	14	punct	_	Tag=O
 10	в	_	ADP	_	_	14	discourse	_	Tag=O
 11	частности	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	fixed	_	Tag=O
@@ -4518,7 +4518,7 @@
 1	Президенты	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Tag=O
 2	также	_	ADV	_	Degree=Pos	3	advmod	_	Tag=O
 3	обсудили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
-4	ситуацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	Tag=R
+4	ситуацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	Tag=O
 5	в	_	ADP	_	_	6	case	_	Tag=O
 6	Дагестане	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Tag=O
 7	.	_	PUNCT	_	_	3	punct	_	Tag=O
@@ -4618,7 +4618,7 @@
 12	агентство	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	Tag=O
 13	АНА	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	Tag=O
 14	,	_	PUNCT	_	_	11	punct	_	Tag=O
-15	находится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	Tag=R
+15	находится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	Tag=O
 16	80	_	NUM	_	_	17	nummod	_	Tag=O
 17	человек	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nsubj	_	Tag=O
 18	.	_	PUNCT	_	_	1	punct	_	Tag=O
@@ -4660,7 +4660,7 @@
 33	ссылкой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	Tag=O
 34	на	_	ADP	_	_	35	case	_	Tag=O
 35	отдел	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	Tag=O
-36	сбыта	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	Tag=R
+36	сбыта	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	Tag=O
 37	завода	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	Tag=O
 38	.	_	PUNCT	_	_	6	punct	_	Tag=O
 
@@ -4671,7 +4671,7 @@
 3	"	_	PUNCT	_	_	4	punct	_	Tag=O
 4	Ярославнефтеоргсинтез	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	Tag=O
 5	"	_	PUNCT	_	_	4	punct	_	Tag=O
-6	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+6	является	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 7	одним	_	NUM	_	Case=Ins|Gender=Masc|Number=Sing	6	xcomp	_	Tag=O
 8	из	_	ADP	_	_	10	case	_	Tag=O
 9	основных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	Tag=O
@@ -4745,7 +4745,7 @@
 5	,	_	PUNCT	_	_	2	punct	_	Tag=O
 6	лидер	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	Tag=O
 7	движения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Tag=O
-8	сопротивления	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=R
+8	сопротивления	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=O
 9	Восточного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
 10	Тимора	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
 11	Шанана	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	Tag=O
@@ -4783,7 +4783,7 @@
 17	что	_	SCONJ	_	_	20	mark	_	Tag=O
 18	Великобританию	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	Tag=O
 19	очень	_	ADV	_	Degree=Pos	20	advmod	_	Tag=O
-20	беспокоит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	Tag=R
+20	беспокоит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	Tag=O
 21	этот	_	DET	_	Case=Nom|Gender=Masc|Number=Sing	22	det	_	Tag=O
 22	кризис	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	Tag=O
 23	.	_	PUNCT	_	_	5	punct	_	Tag=O
@@ -4796,19 +4796,19 @@
 4	на	_	ADP	_	_	5	case	_	Tag=O
 5	закон	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	Tag=O
 6	об	_	ADP	_	_	7	case	_	Tag=O
-7	обороне	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	Tag=R
+7	обороне	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
 8	,	_	PUNCT	_	_	10	punct	_	Tag=O
 9	где	_	ADV	_	Degree=Pos	10	advmod	_	Tag=O
-10	говорится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	Tag=R
+10	говорится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	Tag=O
 11	о	_	ADP	_	_	12	case	_	Tag=O
 12	том	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	Tag=O
 13	,	_	PUNCT	_	_	17	punct	_	Tag=O
 14	что	_	SCONJ	_	_	17	mark	_	Tag=O
 15	военное	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	Tag=O
 16	положение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	Tag=O
-17	может	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl	_	Tag=R
-18	быть	_	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	aux:pass	_	Tag=R
-19	объявлено	_	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	xcomp	_	Tag=R
+17	может	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl	_	Tag=O
+18	быть	_	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	aux:pass	_	Tag=O
+19	объявлено	_	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	xcomp	_	Tag=O
 20	на	_	ADP	_	_	21	case	_	Tag=O
 21	части	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	Tag=O
 22	территории	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	Tag=O
@@ -4836,8 +4836,8 @@
 16	на	_	ADP	_	_	18	case	_	Tag=O
 17	усиленный	_	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	Tag=O
 18	режим	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	Tag=O
-19	несения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	Tag=R
-20	службы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Tag=R
+19	несения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	Tag=O
+20	службы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Tag=O
 21	,	_	PUNCT	_	_	23	punct	_	Tag=O
 22	-	_	PUNCT	_	_	23	punct	_	Tag=O
 23	передает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	Tag=O
@@ -4857,7 +4857,7 @@
 # sent_id = 739221_9
 # text = Путь передачи вируса человеку - трансмиссионный, переносчик - комары рода Culex.
 1	Путь	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Tag=O
-2	передачи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	Tag=R
+2	передачи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	Tag=O
 3	вируса	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Tag=O
 4	человеку	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	Tag=O
 5	-	_	PUNCT	_	_	6	punct	_	Tag=O
@@ -4898,7 +4898,7 @@
 24	ОРТ	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	Tag=O
 25	"	_	PUNCT	_	_	24	punct	_	Tag=O
 26	о	_	ADP	_	_	27	case	_	Tag=O
-27	защите	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	Tag=R
+27	защите	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	Tag=O
 28	чести	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	Tag=O
 29	и	_	CCONJ	_	_	30	cc	_	Tag=O
 30	достоинства	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	conj	_	Tag=O
@@ -4919,7 +4919,7 @@
 11	Волошина	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	Tag=O
 12	и	_	CCONJ	_	_	14	cc	_	Tag=O
 13	недавно	_	ADV	_	Degree=Pos	14	advmod	_	Tag=O
-14	избранного	_	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	Tag=R
+14	избранного	_	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	Tag=O
 15	главой	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	xcomp	_	Tag=O
 16	Карачаево-Черкесии	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	Tag=O
 17	Владимира	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	Tag=O
@@ -4942,7 +4942,7 @@
 12	и	_	CCONJ	_	_	13	cc	_	Tag=O
 13	Бейруте	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	Tag=O
 14	не	_	PART	_	Polarity=Neg	15	advmod	_	Tag=O
-15	принесли	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+15	принесли	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
 16	реальных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	Tag=O
 17	результатов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obj	_	Tag=O
 18	.	_	PUNCT	_	_	15	punct	_	Tag=O
@@ -5017,9 +5017,9 @@
 11	что	_	SCONJ	_	_	14	mark	_	Tag=O
 12	ливанская	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Tag=O
 13	сторона	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	Tag=O
-14	стремится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	ccomp	_	Tag=R
-15	возобновить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	Tag=R
-16	встречи	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	Tag=R
+14	стремится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	ccomp	_	Tag=O
+15	возобновить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	Tag=O
+16	встречи	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	Tag=O
 17	с	_	ADP	_	_	19	case	_	Tag=O
 18	израильской	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Tag=O
 19	стороной	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	Tag=O
@@ -5046,18 +5046,18 @@
 # text = Профсоюз морских перевозок Австралии объявил бойкот на любые  работы с индонезийскими судами, заходящими в порты страны.
 1	Профсоюз	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Tag=O
 2	морских	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	Tag=O
-3	перевозок	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	Tag=R
+3	перевозок	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	Tag=O
 4	Австралии	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
 5	объявил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
 6	бойкот	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Tag=G
 7	на	_	ADP	_	_	9	case	_	Tag=O
 8	любые	_	DET	_	Animacy=Inan|Case=Acc|Number=Plur	9	det	_	Tag=O
-9	работы	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	Tag=R
+9	работы	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	Tag=O
 10	с	_	ADP	_	_	12	case	_	Tag=O
 11	индонезийскими	_	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	Tag=O
 12	судами	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	nmod	_	Tag=O
 13	,	_	PUNCT	_	_	14	punct	_	Tag=O
-14	заходящими	_	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	Tag=R
+14	заходящими	_	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	Tag=O
 15	в	_	ADP	_	_	16	case	_	Tag=O
 16	порты	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	Tag=O
 17	страны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	Tag=O
@@ -5102,7 +5102,7 @@
 4	сейсмологов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	Tag=O
 5	,	_	PUNCT	_	_	2	punct	_	Tag=O
 6	эпицентр	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=O
-7	находился	_	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=R
+7	находился	_	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=O
 8	в	_	ADP	_	_	10	case	_	Tag=O
 9	20	_	NUM	_	_	10	nummod	_	Tag=O
 10	километрах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	Tag=O
@@ -5223,7 +5223,7 @@
 
 # sent_id = 739236_2
 # text = Истекающих кровью людей спешно доставили в ближайшие госпитали.
-1	Истекающих	_	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	Tag=R
+1	Истекающих	_	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	Tag=O
 2	кровью	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	Tag=O
 3	людей	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	Tag=O
 4	спешно	_	ADV	_	Degree=Pos	5	advmod	_	Tag=O
@@ -5303,7 +5303,7 @@
 11	в	_	ADP	_	_	10	advmod	_	Tag=O
 12	общей	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	fixed	_	Tag=O
 13	сложности	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	fixed	_	Tag=O
-14	было	_	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	Tag=R
+14	было	_	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	Tag=O
 15	боле	_	ADV	_	Degree=Pos	17	advmod	_	Tag=O
 16	280	_	NUM	_	_	17	nummod	_	Tag=O
 17	тонн	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	Tag=O
