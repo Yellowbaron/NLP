@@ -13,6 +13,8 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+server = app.server
+
 def generate_table(dataframe, max_rows=10):          # Функция для создания таблицы в html
     return html.Table([
         html.Thead(
@@ -65,7 +67,6 @@ accuracy = pd.DataFrame({
     "Точность": ["98.2%"]
 })
 
-#fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
 
 app.layout = html.Div(children=[
     html.H1(children='Дашборд для событийного детектора'),
@@ -85,13 +86,8 @@ app.layout = html.Div(children=[
     html.Div(children='Количество эпох обучения'),
     generate_table(epochs),
     html.Div(children='Accuracy по итогам обучения'),
-    generate_table(accuracy),
+    generate_table(accuracy)
 
-
-    # dcc.Graph(
-    #     id='example-graph',
-    #     figure=fig
-    # )
 ])
 
 if __name__ == '__main__':
