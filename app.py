@@ -37,9 +37,9 @@ result = pd.DataFrame({
 })
 confusion_matrix = pd.DataFrame({
     "test \ pred": ["O", "G", "lG"],
-    "O": [697, 8, 1],
-    "G": [13, 33, 0],
-    "lG": [6, 3, 9]
+    "O": [697, 13, 6],
+    "G": [8, 33, 3],
+    "lG": [1, 0, 9]
 })
 dataset = pd.DataFrame({
     "Класс": ["Всего предложений", "Элементов G и lG", "G", "lG", "O", "Длинна векторов"],
