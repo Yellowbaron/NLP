@@ -1144,6 +1144,743 @@
 17	Рейганом	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	flat:name	_	Tag=O
 18	.	_	PUNCT	_	_	3	punct	_	Tag=O
 
+# newdoc id = 18
+# sent_id = 18_0
+# text = Неизвестные потушили Вечный огонь на Марсовом поле в Санкт-Петербурге.
+1	Неизвестные	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	Tag=O
+2	потушили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	Вечный	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	Tag=O
+4	огонь	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Tag=O
+5	на	_	ADP	_	_	7	case	_	Tag=O
+6	Марсовом	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	Tag=O
+7	поле	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	Tag=O
+8	в	_	ADP	_	_	9	case	_	Tag=O
+9	Санкт-Петербурге	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
+10	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 18_1
+# text = Об этом сообщили ТАСС в пресс-службе управления МВД по Петербургу и Ленобласти в субботу, 15 декабря.
+1	Об	_	ADP	_	_	2	case	_	Tag=O
+2	этом	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	Tag=O
+3	сообщили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	ТАСС	_	PROPN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	iobj	_	Tag=O
+5	в	_	ADP	_	_	6	case	_	Tag=O
+6	пресс-службе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	Tag=O
+7	управления	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Tag=R
+8	МВД	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=O
+9	по	_	ADP	_	_	10	case	_	Tag=O
+10	Петербургу	_	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
+11	и	_	CCONJ	_	_	12	cc	_	Tag=O
+12	Ленобласти	_	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	conj	_	Tag=O
+13	в	_	ADP	_	_	14	case	_	Tag=O
+14	субботу	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	Tag=O
+15	,	_	PUNCT	_	_	16	punct	_	Tag=O
+16	15	_	ADJ	_	_	14	nmod	_	Tag=O
+17	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	flat	_	Tag=O
+18	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 18_2
+# text = Инцидент произошел вечером 14 декабря.
+1	Инцидент	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=G
+2	произошел	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
+3	вечером	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	Tag=O
+4	14	_	ADJ	_	_	3	nmod	_	Tag=O
+5	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	Tag=O
+6	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 18_5
+# text = Мемориал на Марсовом поле посвящен жертвам Февральской революции.
+1	Мемориал	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	Tag=O
+2	на	_	ADP	_	_	4	case	_	Tag=O
+3	Марсовом	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	Tag=O
+4	поле	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	Tag=O
+5	посвящен	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=R
+6	жертвам	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	5	iobj	_	Tag=O
+7	Февральской	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	Tag=O
+8	революции	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Tag=G
+9	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 18_6
+# text = Вечный огонь на нем загорелся в 1957 году.
+1	Вечный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	Tag=O
+2	огонь	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Tag=O
+3	на	_	ADP	_	_	4	case	_	Tag=O
+4	нем	_	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	2	nmod	_	Tag=O
+5	загорелся	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+6	в	_	ADP	_	_	8	case	_	Tag=O
+7	1957	_	ADJ	_	_	8	amod	_	Tag=O
+8	году	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Tag=O
+9	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 18_7
+# text = Он стал первым в СССР.
+1	Он	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	Tag=O
+2	стал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	первым	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	xcomp	_	Tag=O
+4	в	_	ADP	_	_	5	case	_	Tag=O
+5	СССР	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
+6	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 18_8
+# text = От него были зажжены факелы на Могиле Неизвестного Солдата в Москве, на Пискаревском мемориальном кладбище в Санкт-Петербурге и на Малаховом кургане в Севастополе.
+1	От	_	ADP	_	_	2	case	_	Tag=O
+2	него	_	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	obl	_	Tag=O
+3	были	_	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	Tag=lG
+4	зажжены	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+5	факелы	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	Tag=O
+6	на	_	ADP	_	_	7	case	_	Tag=O
+7	Могиле	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
+8	Неизвестного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	Tag=O
+9	Солдата	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
+10	в	_	ADP	_	_	11	case	_	Tag=O
+11	Москве	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
+12	,	_	PUNCT	_	_	16	punct	_	Tag=O
+13	на	_	ADP	_	_	16	case	_	Tag=O
+14	Пискаревском	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	Tag=O
+15	мемориальном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	Tag=O
+16	кладбище	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	conj	_	Tag=O
+17	в	_	ADP	_	_	18	case	_	Tag=O
+18	Санкт-Петербурге	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	Tag=O
+19	и	_	CCONJ	_	_	22	cc	_	Tag=O
+20	на	_	ADP	_	_	22	case	_	Tag=O
+21	Малаховом	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	Tag=O
+22	кургане	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	Tag=O
+23	в	_	ADP	_	_	24	case	_	Tag=O
+24	Севастополе	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	Tag=O
+25	.	_	PUNCT	_	_	4	punct	_	Tag=O
+
+# sent_id = 18_9
+# text = 27 сентября в городе Семикаракорск Ростовской области сожгли мемориальный комплекс погибшим в Великой Отечественной войне.
+1	27	_	ADJ	_	_	8	obl	_	Tag=O
+2	сентября	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	Tag=O
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	городе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	Tag=O
+5	Семикаракорск	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	Tag=O
+6	Ростовской	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	Tag=O
+7	области	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
+8	сожгли	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+9	мемориальный	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
+10	комплекс	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Tag=O
+11	погибшим	_	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	iobj	_	Tag=R
+12	в	_	ADP	_	_	15	case	_	Tag=O
+13	Великой	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Tag=O
+14	Отечественной	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	Tag=O
+15	войне	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	Tag=O
+16	.	_	PUNCT	_	_	8	punct	_	Tag=O
+
+# sent_id = 18_10
+# text = Огонь уничтожил надписи и сильно повредил надгробные плиты.
+1	Огонь	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
+2	уничтожил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	надписи	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	Tag=O
+4	и	_	CCONJ	_	_	6	cc	_	Tag=O
+5	сильно	_	ADV	_	Degree=Pos	6	advmod	_	Tag=O
+6	повредил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Tag=G
+7	надгробные	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	Tag=O
+8	плиты	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	Tag=O
+9	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 19_1
+# text = Об этом сообщает le10sport.
+1	Об	_	ADP	_	_	2	case	_	Tag=O
+2	этом	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	Tag=O
+3	сообщает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	le	_	X	_	Foreign=Yes	3	nsubj	_	Tag=O
+5	10	_	NUM	_	_	4	appos	_	Tag=O
+6	sport	_	X	_	Foreign=Yes	4	flat:foreign	_	Tag=O
+7	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 19_9
+# text = Неймар перешел в ПСЖ летом 2017-го за рекордные 222 миллиона евро.
+1	Неймар	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
+2	перешел	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	ПСЖ	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	Tag=O
+5	летом	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	Tag=O
+6	2017-го	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	Tag=O
+7	за	_	ADP	_	_	11	case	_	Tag=O
+8	рекордные	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	Tag=O
+9	222	_	NUM	_	_	10	nummod	_	Tag=O
+10	миллиона	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nummod	_	Tag=O
+11	евро	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	Tag=O
+12	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# newdoc id = 20
+# sent_id = 20_0
+# text = Семилетняя девочка из Гватемалы, задержанная вместе с отцом во время прохождения границы США, погибла по пути в центр содержания нелегальных мигрантов.
+1	Семилетняя	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	Tag=O
+2	девочка	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	Tag=O
+3	из	_	ADP	_	_	4	case	_	Tag=O
+4	Гватемалы	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Tag=O
+5	,	_	PUNCT	_	_	6	punct	_	Tag=O
+6	задержанная	_	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	Tag=G
+7	вместе	_	ADV	_	Degree=Pos	6	advmod	_	Tag=O
+8	с	_	ADP	_	_	9	case	_	Tag=O
+9	отцом	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	Tag=O
+10	во	_	ADP	_	_	12	case	_	Tag=O
+11	время	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	Tag=O
+12	прохождения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	Tag=G
+13	границы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
+14	США	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	Tag=O
+15	,	_	PUNCT	_	_	6	punct	_	Tag=O
+16	погибла	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+17	по	_	ADP	_	_	18	case	_	Tag=O
+18	пути	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	Tag=O
+19	в	_	ADP	_	_	20	case	_	Tag=O
+20	центр	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	Tag=O
+21	содержания	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	Tag=R
+22	нелегальных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	Tag=O
+23	мигрантов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	Tag=O
+24	.	_	PUNCT	_	_	16	punct	_	Tag=O
+
+# sent_id = 20_1
+# text = Об этом сообщил NBC News.
+1	Об	_	ADP	_	_	2	case	_	Tag=O
+2	этом	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	Tag=O
+3	сообщил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	NBC	_	X	_	Foreign=Yes	3	nsubj	_	Tag=O
+5	News	_	X	_	Foreign=Yes	4	flat:foreign	_	Tag=O
+6	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 20_7
+# text = На момент поступления в больницу Жакелин была сильно обезвожена.
+1	На	_	ADP	_	_	2	case	_	Tag=O
+2	момент	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	Tag=O
+3	поступления	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	Tag=G
+4	в	_	ADP	_	_	5	case	_	Tag=O
+5	больницу	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+6	Жакелин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	Tag=O
+7	была	_	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	Tag=R
+8	сильно	_	ADV	_	Degree=Pos	9	advmod	_	Tag=O
+9	обезвожена	_	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=R
+10	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# sent_id = 20_11
+# text = В ноябре мать годовалой девочки из Гватемалы, заболевшей в одном из американских пунктов содержания мигрантов и умершей вскоре после освобождения, потребовала у США компенсацию в 60 миллионов долларов США.
+1	В	_	ADP	_	_	2	case	_	Tag=O
+2	ноябре	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	Tag=O
+3	мать	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	Tag=O
+4	годовалой	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Tag=O
+5	девочки	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+6	из	_	ADP	_	_	7	case	_	Tag=O
+7	Гватемалы	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
+8	,	_	PUNCT	_	_	9	punct	_	Tag=O
+9	заболевшей	_	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	Tag=G
+10	в	_	ADP	_	_	11	case	_	Tag=O
+11	одном	_	NUM	_	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	Tag=O
+12	из	_	ADP	_	_	14	case	_	Tag=O
+13	американских	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	Tag=O
+14	пунктов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Tag=O
+15	содержания	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	Tag=R
+16	мигрантов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	Tag=O
+17	и	_	CCONJ	_	_	18	cc	_	Tag=O
+18	умершей	_	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	Tag=G
+19	вскоре	_	ADV	_	Degree=Pos	18	advmod	_	Tag=O
+20	после	_	ADP	_	_	21	case	_	Tag=O
+21	освобождения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	Tag=G
+22	,	_	PUNCT	_	_	18	punct	_	Tag=O
+23	потребовала	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+24	у	_	ADP	_	_	25	case	_	Tag=O
+25	США	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	Tag=O
+26	компенсацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	Tag=O
+27	в	_	ADP	_	_	30	case	_	Tag=O
+28	60	_	NUM	_	_	29	nummod	_	Tag=O
+29	миллионов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nummod	_	Tag=O
+30	долларов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	Tag=O
+31	США	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	Tag=O
+32	.	_	PUNCT	_	_	23	punct	_	Tag=O
+
+# newdoc id = 21
+# sent_id = 21_0
+# text = На митинг верующих, проходящий в Киеве во время Объединительного собора украинской церкви, привезли организованные группы бюджетных работников.
+1	На	_	ADP	_	_	2	case	_	Tag=O
+2	митинг	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	Tag=G
+3	верующих	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	Tag=O
+4	,	_	PUNCT	_	_	5	punct	_	Tag=O
+5	проходящий	_	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	acl	_	Tag=lG
+6	в	_	ADP	_	_	7	case	_	Tag=O
+7	Киеве	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Tag=O
+8	во	_	ADP	_	_	11	case	_	Tag=O
+9	время	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	Tag=O
+10	Объединительного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Tag=O
+11	собора	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Tag=G
+12	украинской	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Tag=O
+13	церкви	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	Tag=O
+14	,	_	PUNCT	_	_	5	punct	_	Tag=O
+15	привезли	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+16	организованные	_	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	Tag=O
+17	группы	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	obj	_	Tag=O
+18	бюджетных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	Tag=O
+19	работников	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	Tag=O
+20	.	_	PUNCT	_	_	15	punct	_	Tag=O
+
+# sent_id = 21_1
+# text = Об этом сообщает «Страна.ua».
+1	Об	_	ADP	_	_	2	case	_	Tag=O
+2	этом	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	Tag=O
+3	сообщает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	«	_	PUNCT	_	_	5	punct	_	Tag=O
+5	Страна	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Tag=O
+6	.	_	PUNCT	_	_	7	punct	_	Tag=O
+7	ua	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	Tag=O
+8	»	_	PUNCT	_	_	5	punct	_	Tag=O
+9	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 22_6
+# text = Сообщалось, что в их число входят предприниматели Олег Дерипаска, Виктор Вексельберг и глава ВТБ Андрей Костин.
+1	Сообщалось	_	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	Tag=G
+2	,	_	PUNCT	_	_	7	punct	_	Tag=O
+3	что	_	SCONJ	_	_	7	mark	_	Tag=O
+4	в	_	ADP	_	_	6	case	_	Tag=O
+5	их	_	DET	_	_	6	det	_	Tag=O
+6	число	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	Tag=O
+7	входят	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	Tag=R
+8	предприниматели	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Tag=O
+9	Олег	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	Tag=O
+10	Дерипаска	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	Tag=O
+11	,	_	PUNCT	_	_	12	punct	_	Tag=O
+12	Виктор	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	Tag=O
+13	Вексельберг	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	Tag=O
+14	и	_	CCONJ	_	_	15	cc	_	Tag=O
+15	глава	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	Tag=O
+16	ВТБ	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Tag=O
+17	Андрей	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	Tag=O
+18	Костин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	Tag=O
+19	.	_	PUNCT	_	_	1	punct	_	Tag=O
+
+# sent_id = 23_0
+# text = На Украине захватили Винницкий Свято-Преображенский кафедральный собор, который принадлежит канонической Украинской православной церкви Московского патриархата (УПЦ МП).
+1	На	_	ADP	_	_	2	case	_	Tag=O
+2	Украине	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	Tag=O
+3	захватили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	Винницкий	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Tag=O
+5	Свято-Преображенский	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Tag=O
+6	кафедральный	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Tag=O
+7	собор	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Tag=O
+8	,	_	PUNCT	_	_	10	punct	_	Tag=O
+9	который	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Tag=O
+10	принадлежит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	Tag=R
+11	канонической	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	Tag=O
+12	Украинской	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	Tag=O
+13	православной	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	Tag=O
+14	церкви	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	iobj	_	Tag=O
+15	Московского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	Tag=O
+16	патриархата	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Tag=O
+17	(	_	PUNCT	_	_	18	punct	_	Tag=O
+18	УПЦ	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	parataxis	_	Tag=O
+19	МП	_	ADJ	_	_	18	flat:name	_	Tag=O
+20	)	_	PUNCT	_	_	18	punct	_	Tag=O
+21	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 23_1
+# text = Об этом сообщает «Союз православных журналистов».
+1	Об	_	ADP	_	_	2	case	_	Tag=O
+2	этом	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	Tag=O
+3	сообщает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	«	_	PUNCT	_	_	5	punct	_	Tag=O
+5	Союз	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
+6	православных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	Tag=O
+7	журналистов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	Tag=O
+8	»	_	PUNCT	_	_	5	punct	_	Tag=O
+9	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 23_2
+# text = Как сообщили источники издания, сразу после утреннего богослужения в субботу, 15 декабря, в храм вошла группа из примерно 20 молодых людей спортивного телосложения.
+1	Как	_	SCONJ	_	_	2	mark	_	Tag=O
+2	сообщили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	Tag=G
+3	источники	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	Tag=O
+4	издания	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	Tag=O
+5	,	_	PUNCT	_	_	2	punct	_	Tag=O
+6	сразу	_	ADV	_	Degree=Pos	9	advmod	_	Tag=O
+7	после	_	ADP	_	_	9	case	_	Tag=O
+8	утреннего	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	Tag=O
+9	богослужения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	Tag=G
+10	в	_	ADP	_	_	11	case	_	Tag=O
+11	субботу	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	Tag=O
+12	,	_	PUNCT	_	_	13	punct	_	Tag=O
+13	15	_	ADJ	_	_	11	nmod	_	Tag=O
+14	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	flat	_	Tag=O
+15	,	_	PUNCT	_	_	11	punct	_	Tag=O
+16	в	_	ADP	_	_	17	case	_	Tag=O
+17	храм	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	Tag=O
+18	вошла	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+19	группа	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	Tag=O
+20	из	_	ADP	_	_	24	case	_	Tag=O
+21	примерно	_	ADV	_	Degree=Pos	22	advmod	_	Tag=O
+22	20	_	NUM	_	_	24	nummod	_	Tag=O
+23	молодых	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	Tag=O
+24	людей	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	Tag=O
+25	спортивного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	Tag=O
+26	телосложения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	Tag=O
+27	.	_	PUNCT	_	_	18	punct	_	Tag=O
+
+# sent_id = 23_3
+# text = Они отобрали у охраны ключи от всех помещений комплекса и заявили представителям церкви: «Забирайте свои вещи и уходите».
+1	Они	_	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	Tag=O
+2	отобрали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	у	_	ADP	_	_	4	case	_	Tag=O
+4	охраны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	Tag=R
+5	ключи	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	Tag=O
+6	от	_	ADP	_	_	8	case	_	Tag=O
+7	всех	_	DET	_	Case=Gen|Number=Plur	8	det	_	Tag=O
+8	помещений	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	Tag=O
+9	комплекса	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
+10	и	_	CCONJ	_	_	11	cc	_	Tag=O
+11	заявили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Tag=G
+12	представителям	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	Tag=O
+13	церкви	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
+14	:	_	PUNCT	_	_	16	punct	_	Tag=O
+15	«	_	PUNCT	_	_	16	punct	_	Tag=O
+16	Забирайте	_	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	11	parataxis	_	Tag=R
+17	свои	_	DET	_	Animacy=Inan|Case=Acc|Number=Plur	18	det	_	Tag=O
+18	вещи	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	Tag=O
+19	и	_	CCONJ	_	_	20	cc	_	Tag=O
+20	уходите	_	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	16	conj	_	Tag=R
+21	»	_	PUNCT	_	_	16	punct	_	Tag=O
+22	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 23_6
+# text = Помимо него, на мероприятие приехал еще один иерарх УПЦ МП — митрополит Переяслав-Хмельницкий и Вишневский Александр.
+1	Помимо	_	ADP	_	_	2	case	_	Tag=O
+2	него	_	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	obl	_	Tag=O
+3	,	_	PUNCT	_	_	2	punct	_	Tag=O
+4	на	_	ADP	_	_	5	case	_	Tag=O
+5	мероприятие	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	Tag=G
+6	приехал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+7	еще	_	ADV	_	Degree=Pos	8	advmod	_	Tag=O
+8	один	_	NUM	_	Case=Nom|Gender=Masc|Number=Sing	9	nummod	_	Tag=O
+9	иерарх	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Tag=O
+10	УПЦ	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
+11	МП	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	nmod	_	Tag=O
+12	—	_	PUNCT	_	_	13	punct	_	Tag=O
+13	митрополит	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	Tag=O
+14	Переяслав-Хмельницкий	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	Tag=O
+15	и	_	CCONJ	_	_	16	cc	_	Tag=O
+16	Вишневский	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	Tag=O
+17	Александр	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	Tag=O
+18	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# sent_id = 23_10
+# text = После этого духовенство Винницы открыто выступило против митрополита.
+1	После	_	ADP	_	_	2	case	_	Tag=O
+2	этого	_	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	Tag=O
+3	духовенство	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Tag=O
+4	Винницы	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+5	открыто	_	ADV	_	Degree=Pos	6	advmod	_	Tag=O
+6	выступило	_	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+7	против	_	ADP	_	_	8	case	_	Tag=O
+8	митрополита	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	Tag=O
+9	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# sent_id = 24_0
+# text = Международный олимпийский комитет (МОК) потребовал от бобслеистов Алексея Воеводы, Дмитрия Труненкова и Алексея Негодайло вернуть золотые медали Игр в Сочи.
+1	Международный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	Tag=O
+2	олимпийский	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	Tag=O
+3	комитет	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=O
+4	(	_	PUNCT	_	_	5	punct	_	Tag=O
+5	МОК	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	Tag=O
+6	)	_	PUNCT	_	_	5	punct	_	Tag=O
+7	потребовал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+8	от	_	ADP	_	_	9	case	_	Tag=O
+9	бобслеистов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	Tag=O
+10	Алексея	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	Tag=O
+11	Воеводы	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	Tag=O
+12	,	_	PUNCT	_	_	13	punct	_	Tag=O
+13	Дмитрия	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	Tag=O
+14	Труненкова	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	Tag=O
+15	и	_	CCONJ	_	_	16	cc	_	Tag=O
+16	Алексея	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	Tag=O
+17	Негодайло	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	Tag=O
+18	вернуть	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	Tag=R
+19	золотые	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	Tag=O
+20	медали	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	Tag=O
+21	Игр	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	Tag=O
+22	в	_	ADP	_	_	23	case	_	Tag=O
+23	Сочи	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	Tag=O
+24	.	_	PUNCT	_	_	7	punct	_	Tag=O
+
+# sent_id = 24_5
+# text = Негодайло и Труненков также были наказаны МОК, однако впоследствии суд оправдал спортсменов.
+1	Негодайло	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	Tag=O
+2	и	_	CCONJ	_	_	3	cc	_	Tag=O
+3	Труненков	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Tag=O
+4	также	_	ADV	_	Degree=Pos	6	advmod	_	Tag=O
+5	были	_	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	Tag=lG
+6	наказаны	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+7	МОК	_	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	Tag=O
+8	,	_	PUNCT	_	_	12	punct	_	Tag=O
+9	однако	_	ADV	_	Degree=Pos	12	advmod	_	Tag=O
+10	впоследствии	_	ADV	_	Degree=Pos	12	advmod	_	Tag=O
+11	суд	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Tag=O
+12	оправдал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	Tag=G
+13	спортсменов	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	Tag=O
+14	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# sent_id = 24_7
+# text = Вместе с Воеводой он завоевал золото в двойках, с Негодайло и Труненковым — в четверках.
+1	Вместе	_	ADV	_	Degree=Pos	5	advmod	_	Tag=O
+2	с	_	ADP	_	_	3	case	_	Tag=O
+3	Воеводой	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	Tag=O
+4	он	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	Tag=O
+5	завоевал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+6	золото	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Tag=O
+7	в	_	ADP	_	_	8	case	_	Tag=O
+8	двойках	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	Tag=O
+9	,	_	PUNCT	_	_	11	punct	_	Tag=O
+10	с	_	ADP	_	_	11	case	_	Tag=O
+11	Негодайло	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	Tag=O
+12	и	_	CCONJ	_	_	13	cc	_	Tag=O
+13	Труненковым	_	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	Tag=O
+14	—	_	PUNCT	_	_	16	punct	_	Tag=O
+15	в	_	ADP	_	_	16	case	_	Tag=O
+16	четверках	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	orphan	_	Tag=O
+17	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 25_1
+# text = Об этом в субботу, 15 декабря, агентству «Москва» сообщил замначальника подземки, руководитель службы безопасности Андрей Кичигин.
+1	Об	_	ADP	_	_	2	case	_	Tag=O
+2	этом	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	Tag=O
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	субботу	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	Tag=O
+5	,	_	PUNCT	_	_	6	punct	_	Tag=O
+6	15	_	ADJ	_	_	4	nmod	_	Tag=O
+7	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	flat	_	Tag=O
+8	,	_	PUNCT	_	_	4	punct	_	Tag=O
+9	агентству	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	iobj	_	Tag=O
+10	«	_	PUNCT	_	_	11	punct	_	Tag=O
+11	Москва	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	Tag=O
+12	»	_	PUNCT	_	_	11	punct	_	Tag=O
+13	сообщил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+14	замначальника	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Tag=O
+15	подземки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	Tag=O
+16	,	_	PUNCT	_	_	17	punct	_	Tag=O
+17	руководитель	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	Tag=O
+18	службы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	Tag=O
+19	безопасности	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Tag=O
+20	Андрей	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	Tag=O
+21	Кичигин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	Tag=O
+22	.	_	PUNCT	_	_	13	punct	_	Tag=O
+
+# sent_id = 25_5
+# text = Пассажира задержали работники службы безопасности и УВД на метрополитене.
+1	Пассажира	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Tag=O
+2	задержали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	работники	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	Tag=O
+4	службы	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+5	безопасности	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
+6	и	_	CCONJ	_	_	7	cc	_	Tag=O
+7	УВД	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	conj	_	Tag=O
+8	на	_	ADP	_	_	9	case	_	Tag=O
+9	метрополитене	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
+10	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 26_11
+# text = Так, в компаниях Beluga Group и Simple заявили о достаточном запасе марок старого образца для обеспечения бесперебойных поставок.
+1	Так	_	ADV	_	Degree=Pos	9	parataxis	_	Tag=O
+2	,	_	PUNCT	_	_	1	punct	_	Tag=O
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	компаниях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	Tag=O
+5	Beluga	_	X	_	Foreign=Yes	4	appos	_	Tag=O
+6	Group	_	X	_	Foreign=Yes	5	flat:foreign	_	Tag=O
+7	и	_	CCONJ	_	_	8	cc	_	Tag=O
+8	Simple	_	PROPN	_	Foreign=Yes	5	conj	_	Tag=O
+9	заявили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+10	о	_	ADP	_	_	12	case	_	Tag=O
+11	достаточном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	Tag=O
+12	запасе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	Tag=O
+13	марок	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	Tag=O
+14	старого	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	Tag=O
+15	образца	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
+16	для	_	ADP	_	_	17	case	_	Tag=O
+17	обеспечения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Tag=R
+18	бесперебойных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	Tag=O
+19	поставок	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	Tag=R
+20	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# sent_id = 27_0
+# text = В Крыму самосвал сорвался с обрыва и упал на территорию аквапарка в отеле «Ялта Интурист».
+1	В	_	ADP	_	_	2	case	_	Tag=O
+2	Крыму	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	Tag=O
+3	самосвал	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Tag=O
+4	сорвался	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+5	с	_	ADP	_	_	6	case	_	Tag=O
+6	обрыва	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	Tag=O
+7	и	_	CCONJ	_	_	8	cc	_	Tag=O
+8	упал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Tag=G
+9	на	_	ADP	_	_	10	case	_	Tag=O
+10	территорию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	Tag=O
+11	аквапарка	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Tag=O
+12	в	_	ADP	_	_	13	case	_	Tag=O
+13	отеле	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	Tag=O
+14	«	_	PUNCT	_	_	15	punct	_	Tag=O
+15	Ялта	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	appos	_	Tag=O
+16	Интурист	_	X	_	Foreign=Yes	15	appos	_	Tag=O
+17	»	_	PUNCT	_	_	15	punct	_	Tag=O
+18	.	_	PUNCT	_	_	4	punct	_	Tag=O
+
+# sent_id = 27_1
+# text = Видео происшествия опубликовано в Telegram-канале Hue.
+1	Видео	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	Tag=O
+2	происшествия	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	Tag=G
+3	опубликовано	_	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+4	в	_	ADP	_	_	5	case	_	Tag=O
+5	Telegram-канале	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	obl	_	Tag=O
+6	Hue	_	PROPN	_	Foreign=Yes	5	appos	_	Tag=O
+7	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 27_6
+# text = В октябре в Таиланде туристический автобус столкнулся с автомобилем и упал с обрыва.
+1	В	_	ADP	_	_	2	case	_	Tag=O
+2	октябре	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	Tag=O
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	Таиланде	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	Tag=O
+5	туристический	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	Tag=O
+6	автобус	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=O
+7	столкнулся	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+8	с	_	ADP	_	_	9	case	_	Tag=O
+9	автомобилем	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	Tag=O
+10	и	_	CCONJ	_	_	11	cc	_	Tag=O
+11	упал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	Tag=G
+12	с	_	ADP	_	_	13	case	_	Tag=O
+13	обрыва	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	Tag=O
+14	.	_	PUNCT	_	_	7	punct	_	Tag=O
+
+# sent_id = 27_7
+# text = Пострадали более 50 человек.
+1	Пострадали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+2	более	_	ADV	_	Degree=Cmp	1	nsubj	_	Tag=O
+3	50	_	NUM	_	_	4	nummod	_	Tag=O
+4	человек	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	Tag=O
+5	.	_	PUNCT	_	_	1	punct	_	Tag=O
+
+# sent_id = 28_4
+# text = Вечером 12 декабря в отель сборной России в австрийском Хохфильцене прибыла полиция.
+1	Вечером	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	Tag=O
+2	12	_	ADJ	_	_	1	nmod	_	Tag=O
+3	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	flat	_	Tag=O
+4	в	_	ADP	_	_	5	case	_	Tag=O
+5	отель	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	Tag=O
+6	сборной	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
+7	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Tag=O
+8	в	_	ADP	_	_	10	case	_	Tag=O
+9	австрийском	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
+10	Хохфильцене	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	Tag=O
+11	прибыла	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+12	полиция	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Tag=O
+13	.	_	PUNCT	_	_	11	punct	_	Tag=O
+
+# sent_id = 29_2
+# text = Тесты, проведенные в начале 1970-х, подтвердили присутствие вредного для здоровья вещества в присыпке, причем в некоторых случаях «в очень высокой концентрации».
+1	Тесты	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Tag=G
+2	,	_	PUNCT	_	_	3	punct	_	Tag=O
+3	проведенные	_	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	Tag=lG
+4	в	_	ADP	_	_	5	case	_	Tag=O
+5	начале	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	Tag=O
+6	1970-х	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	Tag=O
+7	,	_	PUNCT	_	_	3	punct	_	Tag=O
+8	подтвердили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+9	присутствие	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Tag=R
+10	вредного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	Tag=O
+11	для	_	ADP	_	_	12	case	_	Tag=O
+12	здоровья	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	Tag=O
+13	вещества	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	Tag=O
+14	в	_	ADP	_	_	15	case	_	Tag=O
+15	присыпке	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	Tag=O
+16	,	_	PUNCT	_	_	25	punct	_	Tag=O
+17	причем	_	CCONJ	_	_	25	cc	_	Tag=O
+18	в	_	ADP	_	_	20	case	_	Tag=O
+19	некоторых	_	DET	_	Case=Loc|Number=Plur	20	det	_	Tag=O
+20	случаях	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	25	nmod	_	Tag=O
+21	«	_	PUNCT	_	_	25	punct	_	Tag=O
+22	в	_	ADP	_	_	25	case	_	Tag=O
+23	очень	_	ADV	_	Degree=Pos	24	advmod	_	Tag=O
+24	высокой	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	Tag=O
+25	концентрации	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	conj	_	Tag=O
+26	»	_	PUNCT	_	_	25	punct	_	Tag=O
+27	.	_	PUNCT	_	_	8	punct	_	Tag=O
+
+# sent_id = 29_3
+# text = В то же время расследование, проведенное агентством, показало, что первые следы наличия асбеста в продукции J&J были обнаружены еще в 1957-1958 годах.
+1	В	_	ADP	_	_	4	case	_	Tag=O
+2	то	_	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	det	_	Tag=O
+3	же	_	PART	_	_	2	advmod	_	Tag=O
+4	время	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	Tag=O
+5	расследование	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	Tag=G
+6	,	_	PUNCT	_	_	7	punct	_	Tag=O
+7	проведенное	_	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	Tag=lG
+8	агентством	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl:agent	_	Tag=O
+9	,	_	PUNCT	_	_	7	punct	_	Tag=O
+10	показало	_	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+11	,	_	PUNCT	_	_	23	punct	_	Tag=O
+12	что	_	SCONJ	_	_	23	mark	_	Tag=O
+13	первые	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	Tag=O
+14	следы	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	Tag=O
+15	наличия	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	Tag=O
+16	асбеста	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Tag=O
+17	в	_	ADP	_	_	18	case	_	Tag=O
+18	продукции	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	Tag=O
+19	J	_	PROPN	_	Foreign=Yes	18	nmod	_	Tag=O
+20	&	_	PUNCT	_	_	19	flat:foreign	_	Tag=O
+21	J	_	PROPN	_	Foreign=Yes	19	flat:foreign	_	Tag=O
+22	были	_	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	Tag=lG
+23	обнаружены	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	_	Tag=G
+24	еще	_	ADV	_	Degree=Pos	27	advmod	_	Tag=O
+25	в	_	ADP	_	_	27	case	_	Tag=O
+26	1957-1958	_	ADJ	_	_	27	amod	_	Tag=O
+27	годах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	_	Tag=O
+28	.	_	PUNCT	_	_	10	punct	_	Tag=O
+
+# sent_id = 29_6
+# text = В свою очередь, в компании выступили с опровержением результатов расследования, проведенного Reuters.
+1	В	_	ADP	_	_	3	case	_	Tag=O
+2	свою	_	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	det	_	Tag=O
+3	очередь	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	parataxis	_	Tag=O
+4	,	_	PUNCT	_	_	3	punct	_	Tag=O
+5	в	_	ADP	_	_	6	case	_	Tag=O
+6	компании	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	Tag=O
+7	выступили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+8	с	_	ADP	_	_	9	case	_	Tag=lG
+9	опровержением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	Tag=lG
+10	результатов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Tag=O
+11	расследования	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	Tag=G
+12	,	_	PUNCT	_	_	13	punct	_	Tag=O
+13	проведенного	_	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	Tag=lG
+14	Reuters	_	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl:agent	_	Tag=O
+15	.	_	PUNCT	_	_	7	punct	_	Tag=O
+
+# sent_id = 29_7
+# text = Тем не менее рыночная стоимость корпорации после публикации снизилась на 39,8 миллиарда долларов.
+1	Тем	_	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	discourse	_	Tag=O
+2	не	_	PART	_	Polarity=Neg	1	fixed	_	Tag=O
+3	менее	_	ADV	_	Degree=Cmp	1	fixed	_	Tag=O
+4	рыночная	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Tag=O
+5	стоимость	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Tag=O
+6	корпорации	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
+7	после	_	ADP	_	_	8	case	_	Tag=O
+8	публикации	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	Tag=G
+9	снизилась	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+10	на	_	ADP	_	_	13	case	_	Tag=O
+11	39,8	_	NUM	_	_	12	nummod	_	Tag=O
+12	миллиарда	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nummod:gov	_	Tag=O
+13	долларов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	Tag=O
+14	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# sent_id = 29_12
+# text = J&J входит в состав индекса Dow Jones Global Titans 50.
+1	J	_	PROPN	_	Foreign=Yes	4	nsubj	_	Tag=O
+2	&	_	PUNCT	_	_	1	flat:foreign	_	Tag=O
+3	J	_	PROPN	_	Foreign=Yes	1	flat:foreign	_	Tag=O
+4	входит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+5	в	_	ADP	_	_	6	case	_	Tag=O
+6	состав	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Tag=O
+7	индекса	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Tag=O
+8	Dow	_	X	_	Foreign=Yes	7	appos	_	Tag=O
+9	Jones	_	X	_	Foreign=Yes	8	flat:foreign	_	Tag=O
+10	Global	_	X	_	Foreign=Yes	8	flat:foreign	_	Tag=O
+11	Titans	_	X	_	Foreign=Yes	8	flat:foreign	_	Tag=O
+12	50	_	NUM	_	_	8	appos	_	Tag=O
+13	.	_	PUNCT	_	_	4	punct	_	Tag=O
+
 # sent_id = 1
 # text = Назван способ обнаружить F-35
 1	Назван	назвать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
