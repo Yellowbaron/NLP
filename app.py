@@ -6,89 +6,165 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
+import dash_bootstrap_components as dbc
+import base64
+from elements import sidebar, header, content, confusion_matrix_plot, create_table_from_DF, result, dataset, C_T
+from dataframeCheck import confusion_matrix
+from layouts import compare, overview
+from io import BytesIO
+import matplotlib.pyplot as plt
+import callbacks
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 server = app.server
 
-def generate_table(dataframe, max_rows=10):          # Функция для создания таблицы в html
-    return html.Table([
-        html.Thead(
-            html.Tr([html.Th(col) for col in dataframe.columns])
-        ),
-        html.Tbody([
-            html.Tr([
-                html.Td(dataframe.iloc[i][col]) for col in dataframe.columns
-            ]) for i in range(min(len(dataframe), max_rows))
-        ])
-    ])
-
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
-result = pd.DataFrame({
-    "На множестве": ["O", "G", "lG", "На всём"],
-    "Точность": ["97.35%", "75.00", "90.00%", "-"],
-    "Полнота": ["98.73", "71.74", "50.00", "-"]
-})
-confusion_matrix = pd.DataFrame({
-    "test \ pred": ["O", "G", "lG"],
-    "O": [697, 13, 6],
-    "G": [8, 33, 3],
-    "lG": [1, 0, 9]
-})
-dataset = pd.DataFrame({
-    "Класс": ["Всего предложений", "Элементов G и lG", "G", "lG", "O+R", "Длинна векторов"],
-    "Кол-во": ["268", "403", "322", "81", "3830+216", "43, левый паддинг"]
-})
-word2vec_model = pd.DataFrame({
-    "Шаблон": ["1"]
-})
-architecture = pd.DataFrame({
-    "Слои/Гиперпараметры": ["Эмбединги", "LSTM", "Выходной (Dense)", "Оптимизатор", "f ошибки", "Метрики", "?Оптимизация?"],
-    "Количество элементов(нейронов/контейнеров)": [100, 64, 4, "Adam", "Категор. кросс-энтропия", "Accuracy", "64"],
-    "Хар-ка": ["non-trainable", "Двунаправленная", "f актив - softmax", "-", "-", "-", "Пакетная"]
-})
-epochs = pd.DataFrame({
-    "Эпоха": ["Максимум", "Лучшая", "Конец", "patience", "Переобучение"],
-    "Число": [300, 86, 136, 50, "~70"],
-    "val acc": ["-", "99.57", "99.22", "-", "-"],
-    "val loss ": ["-", "2.57", "2.93", "-", "-"],
-    "acc": ["-", "99.74", "99.99", "-", "-"],
-    "loss": ["-", "1.25", "0.30", "-", "-"]
-})
-
-accuracy = pd.DataFrame({
-    "Название теста": ["Chunk 01_02"],
-    "Точность": ["98.2%"]
-})
 
 
-app.layout = html.Div(children=[
-    html.H1(children='Дашборд для событийного детектора'),
-    html.H4(children='byGalimyanov'),
-    html.Div(children='''
-        На 26/01/2021
-    '''),
-    generate_table(result),
-    html.Div(children='Матрица ошибок'),
-    generate_table(confusion_matrix),
-    html.Div(children='Обучающее множество'),
-    generate_table(dataset),
-    html.Div(children='Векторная модель'),
-    generate_table(word2vec_model),
-    html.Div(children='Архитектура'),
-    generate_table(architecture),
-    html.Div(children='Количество эпох обучения'),
-    generate_table(epochs),
-    html.Div(children='Accuracy по итогам обучения'),
-    generate_table(accuracy)
 
+#fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
+
+# app.layout = html.Div([
+#     dbc.Row(dbc.Col(header), no_gutters=True),
+#     dcc.Location(id="url"),
+#     dbc.Row(
+#         [
+#             dbc.Col(
+#                 [
+#                     sidebar,
+#
+#                 ],
+#                 width='100%',
+#             ),
+#             #dbc.Col(content, style={'padding':'16px'}),
+#         ],
+#         no_gutters=True,
+#     ),
+###################################################################################
+    # html.Header(header),
+    # header,
+    # sidebar,
+    # header,
+    # row = html.Div(
+    #     dbc.Row(
+    #         create_table_from_DF(result),
+    #         create_table_from_DF(dataset),
+    #     ),
+    # ),
+    # html.Div([
+    #     sidebar,
+    #     content,
+    # ]),
+    # create_table_from_DF(dataset),
+    # generate_table(result),
+    # html.Div(children='Матрица ошибок'),
+    # generate_table(confusion_matrix),
+    # html.Div(children='Обучающее множество'),
+    # generate_table(dataset),
+    # html.Div(children='Векторная модель'),
+    # generate_table(word2vec_model),
+    # html.Div(children='Архитектура'),
+    # generate_table(architecture),
+    # html.Div(children='Количество эпох обучения'),
+    # generate_table(epochs),
+    # html.Div(children='Accuracy по итогам обучения'),
+    # generate_table(accuracy),
+
+# ])
+table_header = [
+    html.Thead(html.Tr([html.Th("Дата"), html.Th("G"), html.Th("lG"), html.Th("O"), html.Th("Матрица ошибок")]))
+]
+# df1 = pd.DataFrame(columns = ['Дата', 'Точность G', 'Полноста G', 'Точность lG', 'Полноста lG', 'Точность O', 'Полноста O'])
+
+app.layout = html.Div([
+    dcc.Location(id='url', refresh=False),
+    html.Div(id='page-content')
 ])
+@app.callback(Output("page-content", "children"), [Input("url", "pathname")])
+def render_page_content(pathname):
+    if pathname == "/":
+        return overview
+    elif pathname == "/page-1":
+        return compare
+    elif pathname == "/page-2":
+        return html.Div(
+            [
+                dbc.Row(dbc.Col(header), no_gutters=True),
+                dbc.Row(
+                    [
+                        dbc.Col(
+                            [
+                                sidebar,
+                                dbc.Alert(
+                                    [
+                                        "Скоро этот раздел заработает, а сейчас можете воспользоваться ноутбуком в ",
+                                        html.A("Google Colab", href='https://colab.research.google.com/drive/1V2vfY_koRPNsWx9E0IodDAXhIj7Dp6qo'),
+                                        ],
+                                    color="primary",
+                                    style={'margin':'16px', 'margin-left': '17rem', 'margin-right':'16px', 'padding': '10px'},
+                                    )
+                            ],
+                            style={'position': 'relative', 'height': '100%'}
+                        )
+                    ],
+                    no_gutters=True,
+                ),
+
+            ],)
+    # If the user tries to reach a different page, return a 404 message
+    return dbc.Jumbotron(
+        [
+            html.H1("404: Not found", className="text-danger"),
+            html.Hr(),
+            html.P(f"The pathname {pathname} was not recognised..."),
+        ]
+    )
+
+@app.callback(
+    dash.dependencies.Output('compare_table', 'children'),
+    [dash.dependencies.Input('select', 'value')])
+def update_table(date_value):
+    if date_value == None:
+        new_table = dbc.Row(
+            [
+                dbc.Col(html.Div('Выберите даты')),
+            ],
+        ),
+    else:
+        if date_value == 'All':
+            df = result.copy(deep=True)
+            df = df.reset_index()
+        else:
+            df = result[result.date.isin(date_value)].copy(deep=True)
+            df = df.reset_index()
+            df2 = C_T(df)
+            df_cm = confusion_matrix[confusion_matrix.date.isin(date_value)].copy(deep=True)
+            confusion_matrix_plot(df_cm)
+            matrixs = base64.b64encode(open('figura.png', 'rb').read())
+
+
+        new_table = dbc.Row(
+            [
+                dbc.Col(create_table_from_DF(df2)),
+                dbc.Col(html.Img(src='data:image/png;base64,{}'.format(matrixs.decode()), height='320px')),
+            ],
+        ),
+
+
+    return new_table
+
+@app.callback(
+    Output("positioned-toast", "is_open"),
+    [Input("positioned-toast-toggle", "n_clicks")],
+)
+def open_toast(n):
+    if n:
+        return True
+    return False
 
 if __name__ == '__main__':
     app.run_server(debug=True)
