@@ -4001,6 +4001,821 @@
 20	мире	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	Tag=O
 21	.	_	PUNCT	_	_	9	punct	_	Tag=O
 
+# sent_id = 78_5
+# text = Ему предъявили обвинение по статье «разбой» и заключили под стражу.
+1	Ему	_	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	2	iobj	_	Tag=O
+2	предъявили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
+3	обвинение	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	Tag=G
+4	по	_	ADP	_	_	5	case	_	Tag=O
+5	статье	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+6	«	_	PUNCT	_	_	7	punct	_	Tag=O
+7	разбой	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	Tag=R
+8	»	_	PUNCT	_	_	7	punct	_	Tag=O
+9	и	_	CCONJ	_	_	10	cc	_	Tag=O
+10	заключили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Tag=G
+11	под	_	ADP	_	_	12	case	_	Tag=lG
+12	стражу	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	Tag=lG
+13	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 78_7
+# text = Прокуратура признала возбуждение дела законным и обоснованным.
+1	Прокуратура	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Tag=O
+2	признала	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	возбуждение	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	Tag=G
+4	дела	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	Tag=lG
+5	законным	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	Tag=O
+6	и	_	CCONJ	_	_	7	cc	_	Tag=O
+7	обоснованным	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	Tag=O
+8	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 78_8
+# text = 22 октября спасатели эвакуировали на вертолете восьмерых сборщиков шишек из тайги в районе поселка Кукан Хабаровского края.
+1	22	_	ADJ	_	_	4	obl	_	Tag=O
+2	октября	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	Tag=O
+3	спасатели	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Tag=O
+4	эвакуировали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+5	на	_	ADP	_	_	6	case	_	Tag=O
+6	вертолете	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	Tag=O
+7	восьмерых	_	NUM	_	Animacy=Anim|Case=Acc	8	amod	_	Tag=O
+8	сборщиков	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	Tag=O
+9	шишек	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	Tag=O
+10	из	_	ADP	_	_	11	case	_	Tag=O
+11	тайги	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	Tag=O
+12	в	_	ADP	_	_	13	case	_	Tag=O
+13	районе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	Tag=O
+14	поселка	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
+15	Кукан	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	Tag=O
+16	Хабаровского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	Tag=O
+17	края	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Tag=O
+18	.	_	PUNCT	_	_	4	punct	_	Tag=O
+
+# sent_id = 79_3
+# text = — Средняя стоимость месячной аренды квартир здесь составляет 48,9 и 47,4 тысячи рублей соответственно».
+1	—	_	PUNCT	_	_	8	punct	_	Tag=O
+2	Средняя	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	Tag=O
+3	стоимость	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Tag=O
+4	месячной	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Tag=O
+5	аренды	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=R
+6	квартир	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	Tag=O
+7	здесь	_	ADV	_	Degree=Pos	8	advmod	_	Tag=O
+8	составляет	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=O
+9	48,9	_	NUM	_	_	12	nummod	_	Tag=O
+10	и	_	CCONJ	_	_	11	cc	_	Tag=O
+11	47,4	_	NUM	_	_	9	conj	_	Tag=O
+12	тысячи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nummod:gov	_	Tag=O
+13	рублей	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obj	_	Tag=O
+14	соответственно	_	ADV	_	Degree=Pos	13	advmod	_	Tag=O
+15	»	_	PUNCT	_	_	13	punct	_	Tag=O
+16	.	_	PUNCT	_	_	8	punct	_	Tag=O
+
+# sent_id = 79_6
+# text = Снять квартиру по невысокой цене можно также в Колпинском, Петродворцовом, Красносельском и Пушкинском районах, месячная стоимость аренды в этих районах находится в пределах 21,1–24,8 тысячи рублей в месяц.
+1	Снять	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	Tag=R
+2	квартиру	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	Tag=O
+3	по	_	ADP	_	_	5	case	_	Tag=O
+4	невысокой	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Tag=O
+5	цене	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	obl	_	Tag=O
+6	можно	_	ADV	_	Degree=Pos	0	root	_	Tag=O
+7	также	_	ADV	_	Degree=Pos	16	advmod	_	Tag=O
+8	в	_	ADP	_	_	16	case	_	Tag=O
+9	Колпинском	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	Tag=O
+10	,	_	PUNCT	_	_	11	punct	_	Tag=O
+11	Петродворцовом	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	Tag=O
+12	,	_	PUNCT	_	_	13	punct	_	Tag=O
+13	Красносельском	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	Tag=O
+14	и	_	CCONJ	_	_	15	cc	_	Tag=O
+15	Пушкинском	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	conj	_	Tag=O
+16	районах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	Tag=O
+17	,	_	PUNCT	_	_	24	punct	_	Tag=O
+18	месячная	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Tag=O
+19	стоимость	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	Tag=O
+20	аренды	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Tag=R
+21	в	_	ADP	_	_	23	case	_	Tag=O
+22	этих	_	DET	_	Case=Loc|Number=Plur	23	det	_	Tag=O
+23	районах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	Tag=O
+24	находится	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	Tag=O
+25	в	_	ADP	_	_	26	case	_	Tag=O
+26	пределах	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	Tag=O
+27	21,1–24,8	_	NUM	_	_	28	nummod	_	Tag=O
+28	тысячи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nummod:gov	_	Tag=O
+29	рублей	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	Tag=O
+30	в	_	ADP	_	_	31	case	_	Tag=O
+31	месяц	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	Tag=O
+32	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# newdoc id = 80
+# sent_id = 80_7
+# text = К примеру, при покупке нужно убедиться, что устройство можно защитить паролем и придумать надежную комбинацию.
+1	К	_	ADP	_	_	2	case	_	Tag=O
+2	примеру	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	parataxis	_	Tag=O
+3	,	_	PUNCT	_	_	2	punct	_	Tag=O
+4	при	_	ADP	_	_	5	case	_	Tag=O
+5	покупке	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	Tag=R
+6	нужно	_	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	Tag=O
+7	убедиться	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	csubj	_	Tag=R
+8	,	_	PUNCT	_	_	11	punct	_	Tag=O
+9	что	_	SCONJ	_	_	11	mark	_	Tag=O
+10	устройство	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	Tag=O
+11	можно	_	ADV	_	Degree=Pos	7	ccomp	_	Tag=O
+12	защитить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	Tag=R
+13	паролем	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	iobj	_	Tag=O
+14	и	_	CCONJ	_	_	15	cc	_	Tag=O
+15	придумать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	conj	_	Tag=R
+16	надежную	_	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	Tag=O
+17	комбинацию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	Tag=O
+18	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# sent_id = 80_8
+# text = Желательно не пользоваться заводским, а придумать собственный.
+1	Желательно	_	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	Tag=O
+2	не	_	PART	_	Polarity=Neg	3	advmod	_	Tag=O
+3	пользоваться	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	1	csubj	_	Tag=R
+4	заводским	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	obj	_	Tag=O
+5	,	_	PUNCT	_	_	7	punct	_	Tag=O
+6	а	_	CCONJ	_	_	7	cc	_	Tag=O
+7	придумать	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	Tag=R
+8	собственный	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	obj	_	Tag=O
+9	.	_	PUNCT	_	_	1	punct	_	Tag=O
+
+# sent_id = 80_9
+# text = Кроме того, его надо изменить в случае расставания с партнером, имевшим доступ к учетным данным.
+1	Кроме	_	ADP	_	_	2	case	_	Tag=O
+2	того	_	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	Tag=O
+3	,	_	PUNCT	_	_	2	punct	_	Tag=O
+4	его	_	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	Tag=O
+5	надо	_	ADV	_	Degree=Pos	0	root	_	Tag=O
+6	изменить	_	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	Tag=R
+7	в	_	ADP	_	_	8	case	_	Tag=O
+8	случае	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	Tag=O
+9	расставания	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	Tag=R
+10	с	_	ADP	_	_	11	case	_	Tag=O
+11	партнером	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	Tag=O
+12	,	_	PUNCT	_	_	13	punct	_	Tag=O
+13	имевшим	_	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	Tag=R
+14	доступ	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	Tag=O
+15	к	_	ADP	_	_	17	case	_	Tag=O
+16	учетным	_	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	17	amod	_	Tag=O
+17	данным	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	14	nmod	_	Tag=O
+18	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 84_7
+# text = Аршавин завершил карьеру футболиста в ноябре.
+1	Аршавин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
+2	завершил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	карьеру	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	Tag=lG
+4	футболиста	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
+5	в	_	ADP	_	_	6	case	_	Tag=O
+6	ноябре	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Tag=O
+7	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 84_9
+# text = Аршавин — воспитанник санкт-петербургского футбола.
+1	Аршавин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
+2	—	_	PUNCT	_	_	3	punct	_	Tag=O
+3	воспитанник	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Tag=O
+4	санкт-петербургского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	Tag=O
+5	футбола	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Tag=O
+6	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 86_5
+# text = Самолет благополучно приземлился в аэропорту «Кольцово» города Екатеринбург.
+1	Самолет	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
+2	благополучно	_	ADV	_	Degree=Pos	3	advmod	_	Tag=O
+3	приземлился	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+4	в	_	ADP	_	_	5	case	_	Tag=O
+5	аэропорту	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	Tag=O
+6	«	_	PUNCT	_	_	7	punct	_	Tag=O
+7	Кольцово	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	appos	_	Tag=O
+8	»	_	PUNCT	_	_	7	punct	_	Tag=O
+9	города	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Tag=O
+10	Екатеринбург	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	Tag=O
+11	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 87_1
+# text = Соответствующий документ, по данным издания, будет опубликован в Федеральном реестре США уже 14 декабря.
+1	Соответствующий	_	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	Tag=O
+2	документ	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	Tag=O
+3	,	_	PUNCT	_	_	2	punct	_	Tag=O
+4	по	_	ADP	_	_	5	case	_	Tag=O
+5	данным	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	Tag=O
+6	издания	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Tag=O
+7	,	_	PUNCT	_	_	5	punct	_	Tag=O
+8	будет	_	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	Tag=lG
+9	опубликован	_	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+10	в	_	ADP	_	_	12	case	_	Tag=O
+11	Федеральном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	Tag=O
+12	реестре	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	Tag=O
+13	США	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	Tag=O
+14	уже	_	ADV	_	Degree=Pos	15	advmod	_	Tag=O
+15	14	_	ADJ	_	_	9	obl	_	Tag=O
+16	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	flat	_	Tag=O
+17	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# newdoc id = 88
+# sent_id = 88_4
+# text = 11 декабря президент Владимир Путин обратил внимание на проблему переполненных тюрем и сказал, что десятки людей в одной камере содержать недопустимо.
+1	11	_	ADJ	_	_	6	obl	_	Tag=O
+2	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	Tag=O
+3	президент	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Tag=O
+4	Владимир	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	Tag=O
+5	Путин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	Tag=O
+6	обратил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+7	внимание	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Tag=lG
+8	на	_	ADP	_	_	9	case	_	Tag=O
+9	проблему	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
+10	переполненных	_	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	Tag=O
+11	тюрем	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	Tag=O
+12	и	_	CCONJ	_	_	13	cc	_	Tag=O
+13	сказал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	Tag=G
+14	,	_	PUNCT	_	_	22	punct	_	Tag=O
+15	что	_	SCONJ	_	_	22	mark	_	Tag=O
+16	десятки	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	Tag=O
+17	людей	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	Tag=O
+18	в	_	ADP	_	_	20	case	_	Tag=O
+19	одной	_	NUM	_	Case=Loc|Gender=Fem|Number=Sing	20	nummod	_	Tag=O
+20	камере	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	Tag=O
+21	содержать	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	csubj	_	Tag=O
+22	недопустимо	_	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	ccomp	_	Tag=O
+23	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# sent_id = 89_7
+# text = Расстрел произошел вечером 11 декабря.
+1	Расстрел	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=G
+2	произошел	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
+3	вечером	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	Tag=O
+4	11	_	ADJ	_	_	3	nmod	_	Tag=O
+5	декабря	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	Tag=O
+6	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 738970_0
+# text = На Тайване произошло сильнейшее землетрясение - силой почти 8 баллов по 12-балльной шкале Рихтера.
+1	На	_	ADP	_	_	2	case	_	Tag=O
+2	Тайване	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	Tag=O
+3	произошло	_	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
+4	сильнейшее	_	ADJ	_	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	5	amod	_	Tag=O
+5	землетрясение	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Tag=G
+6	-	_	PUNCT	_	_	7	punct	_	Tag=O
+7	силой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	parataxis	_	Tag=O
+8	почти	_	ADV	_	Degree=Pos	9	advmod	_	Tag=O
+9	8	_	NUM	_	_	10	nummod	_	Tag=O
+10	баллов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	Tag=O
+11	по	_	ADP	_	_	13	case	_	Tag=O
+12	12-балльной	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	Tag=O
+13	шкале	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
+14	Рихтера	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
+15	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 738976_1
+# text = Вулкан Мэйон в центре Филлипин, наиболее активный на архипелаге,исторг клубы дыма вперемешку с пеплом и раскаленными камнями навысоту до 6 километров.
+1	Вулкан	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Tag=O
+2	Мэйон	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Tag=O
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	центре	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	Tag=O
+5	Филлипин	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	Tag=O
+6	,	_	PUNCT	_	_	8	punct	_	Tag=O
+7	наиболее	_	ADV	_	Degree=Pos	8	advmod	_	Tag=O
+8	активный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	Tag=O
+9	на	_	ADP	_	_	10	case	_	Tag=O
+10	архипелаге	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
+11	,	_	PUNCT	_	_	1	punct	_	Tag=O
+12	исторг	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+13	клубы	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	obj	_	Tag=O
+14	дыма	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
+15	вперемешку	_	ADV	_	Degree=Pos	12	advmod	_	Tag=O
+16	с	_	ADP	_	_	17	case	_	Tag=O
+17	пеплом	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	Tag=O
+18	и	_	CCONJ	_	_	20	cc	_	Tag=O
+19	раскаленными	_	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	Tag=O
+20	камнями	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	conj	_	Tag=O
+21	навысоту	_	ADV	_	Degree=Pos	24	advmod	_	Tag=O
+22	до	_	ADP	_	_	24	case	_	Tag=O
+23	6	_	NUM	_	_	24	nummod	_	Tag=O
+24	километров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	Tag=O
+25	.	_	PUNCT	_	_	12	punct	_	Tag=O
+
+# sent_id = 738977_2
+# text = Как сообщило РИА "Новости" со ссылкой на заместителя министра внутренних дел республики Бориса Эркенова, тысячная толпа прорвала милицейское оцепление площади и окружила здание правительства.
+1	Как	_	SCONJ	_	_	2	mark	_	Tag=O
+2	сообщило	_	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	Tag=G
+3	РИА	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	iobj	_	Tag=O
+4	"	_	PUNCT	_	_	5	punct	_	Tag=O
+5	Новости	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	appos	_	Tag=O
+6	"	_	PUNCT	_	_	5	punct	_	Tag=O
+7	со	_	ADP	_	_	8	case	_	Tag=O
+8	ссылкой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	Tag=O
+9	на	_	ADP	_	_	10	case	_	Tag=O
+10	заместителя	_	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	Tag=O
+11	министра	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Tag=O
+12	внутренних	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	Tag=O
+13	дел	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	Tag=O
+14	республики	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	Tag=O
+15	Бориса	_	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	appos	_	Tag=O
+16	Эркенова	_	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	flat:name	_	Tag=O
+17	,	_	PUNCT	_	_	2	punct	_	Tag=O
+18	тысячная	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Tag=O
+19	толпа	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	Tag=O
+20	прорвала	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+21	милицейское	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	Tag=O
+22	оцепление	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	Tag=O
+23	площади	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	Tag=O
+24	и	_	CCONJ	_	_	25	cc	_	Tag=O
+25	окружила	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	Tag=G
+26	здание	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	Tag=O
+27	правительства	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	Tag=O
+28	.	_	PUNCT	_	_	20	punct	_	Tag=O
+
+# sent_id = 738978_8
+# text = Тогда же прибыли венки от президента и правительства страны.
+1	Тогда	_	ADV	_	Degree=Pos	3	advmod	_	Tag=O
+2	же	_	PART	_	_	1	advmod	_	Tag=O
+3	прибыли	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	венки	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Tag=O
+5	от	_	ADP	_	_	6	case	_	Tag=O
+6	президента	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Tag=O
+7	и	_	CCONJ	_	_	8	cc	_	Tag=O
+8	правительства	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	Tag=O
+9	страны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	Tag=O
+10	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 738980_3
+# text = Высокие экспортные пошлины составляют всего 10% от сверхприбылей нефтяников.
+1	Высокие	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	Tag=O
+2	экспортные	_	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	Tag=O
+3	пошлины	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Tag=O
+4	составляют	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+5	всего	_	PART	_	_	7	advmod	_	Tag=O
+6	10	_	NUM	_	_	7	nummod	_	Tag=O
+7	%	_	SYM	_	_	4	obj	_	Tag=O
+8	от	_	ADP	_	_	9	case	_	Tag=O
+9	сверхприбылей	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	Tag=O
+10	нефтяников	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Tag=O
+11	.	_	PUNCT	_	_	4	punct	_	Tag=O
+
+# sent_id = 738982_1
+# text = Ранее в Волгодонск были направлены 2,5 тонны лекарств.
+1	Ранее	_	ADV	_	Degree=Pos	5	advmod	_	Tag=O
+2	в	_	ADP	_	_	3	case	_	Tag=O
+3	Волгодонск	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Tag=O
+4	были	_	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	Tag=lG
+5	направлены	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+6	2,5	_	NUM	_	_	7	nummod	_	Tag=O
+7	тонны	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj:pass	_	Tag=O
+8	лекарств	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	Tag=O
+9	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 738983_0
+# text = В понедельник вечером милиция Москвы обезвредила в микрорайоне Строгино взрывное устройство, эквивалентное приблизительно 600-м граммам тротила.
+1	В	_	ADP	_	_	2	case	_	Tag=O
+2	понедельник	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Tag=O
+3	вечером	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	Tag=O
+4	милиция	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Tag=O
+5	Москвы	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
+6	обезвредила	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+7	в	_	ADP	_	_	8	case	_	Tag=O
+8	микрорайоне	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	Tag=O
+9	Строгино	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	appos	_	Tag=O
+10	взрывное	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	Tag=O
+11	устройство	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Tag=O
+12	,	_	PUNCT	_	_	13	punct	_	Tag=O
+13	эквивалентное	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	Tag=O
+14	приблизительно	_	ADV	_	Degree=Pos	15	advmod	_	Tag=O
+15	600-м	_	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	16	nummod	_	Tag=O
+16	граммам	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	iobj	_	Tag=O
+17	тротила	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Tag=O
+18	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+
+# sent_id = 738983_1
+# text = Как сообщает ИТАР-ТАСС со ссылкой на пресс-центр ГУВД Москвы, взрывное устройство было обнаружено на строительной площадке на улице Таманская, 2.
+1	Как	_	SCONJ	_	_	2	mark	_	Tag=O
+2	сообщает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	Tag=G
+3	ИТАР-ТАСС	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Tag=O
+4	со	_	ADP	_	_	5	case	_	Tag=O
+5	ссылкой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	Tag=O
+6	на	_	ADP	_	_	7	case	_	Tag=O
+7	пресс-центр	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	Tag=O
+8	ГУВД	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Tag=O
+9	Москвы	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	Tag=O
+10	,	_	PUNCT	_	_	2	punct	_	Tag=O
+11	взрывное	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	Tag=O
+12	устройство	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	Tag=O
+13	было	_	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	Tag=lG
+14	обнаружено	_	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+15	на	_	ADP	_	_	17	case	_	Tag=O
+16	строительной	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	Tag=O
+17	площадке	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	Tag=O
+18	на	_	ADP	_	_	19	case	_	Tag=O
+19	улице	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	Tag=O
+20	Таманская	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	appos	_	Tag=O
+21	,	_	PUNCT	_	_	22	punct	_	Tag=O
+22	2	_	NUM	_	_	19	appos	_	Tag=O
+23	.	_	PUNCT	_	_	14	punct	_	Tag=O
+
+# sent_id = 738986_1
+# text = В воскресенье вечером, уже по пути домой, в порт Тампа (штат Флорида), в машинном отделении вспыхнул пожар.
+1	В	_	ADP	_	_	2	case	_	Tag=O
+2	воскресенье	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	Tag=O
+3	вечером	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	Tag=O
+4	,	_	PUNCT	_	_	7	punct	_	Tag=O
+5	уже	_	ADV	_	Degree=Pos	7	advmod	_	Tag=O
+6	по	_	ADP	_	_	7	case	_	Tag=O
+7	пути	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	Tag=O
+8	домой	_	ADV	_	Degree=Pos	7	advmod	_	Tag=O
+9	,	_	PUNCT	_	_	11	punct	_	Tag=O
+10	в	_	ADP	_	_	11	case	_	Tag=O
+11	порт	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
+12	Тампа	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	Tag=O
+13	(	_	PUNCT	_	_	14	punct	_	Tag=O
+14	штат	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	Tag=O
+15	Флорида	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	Tag=O
+16	)	_	PUNCT	_	_	14	punct	_	Tag=O
+17	,	_	PUNCT	_	_	7	punct	_	Tag=O
+18	в	_	ADP	_	_	20	case	_	Tag=O
+19	машинном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	Tag=O
+20	отделении	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	Tag=O
+21	вспыхнул	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
+22	пожар	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	Tag=G
+23	.	_	PUNCT	_	_	21	punct	_	Tag=O
+
+# sent_id = 738988_0
+# text = 20 сентября около 3 часов утра по местному времени (6 часов по Москве) в университетской клинике германского города Мюнстера скончалась супруга первого президента СССР Михаила Горбачева - Раиса Максимовна Горбачева.
+1	20	_	ADJ	_	_	22	obl	_	Tag=O
+2	сентября	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	Tag=O
+3	около	_	ADP	_	_	5	case	_	Tag=O
+4	3	_	NUM	_	_	5	nummod	_	Tag=O
+5	часов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	Tag=O
+6	утра	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Tag=O
+7	по	_	ADP	_	_	9	case	_	Tag=O
+8	местному	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	Tag=O
+9	времени	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	Tag=O
+10	(	_	PUNCT	_	_	12	punct	_	Tag=O
+11	6	_	NUM	_	_	12	nummod	_	Tag=O
+12	часов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	parataxis	_	Tag=O
+13	по	_	ADP	_	_	14	case	_	Tag=O
+14	Москве	_	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
+15	)	_	PUNCT	_	_	12	punct	_	Tag=O
+16	в	_	ADP	_	_	18	case	_	Tag=O
+17	университетской	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	Tag=O
+18	клинике	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	Tag=O
+19	германского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	Tag=O
+20	города	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Tag=O
+21	Мюнстера	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	appos	_	Tag=O
+22	скончалась	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+23	супруга	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	Tag=O
+24	первого	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	Tag=O
+25	президента	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	Tag=O
+26	СССР	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	Tag=O
+27	Михаила	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	appos	_	Tag=O
+28	Горбачева	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	flat:name	_	Tag=O
+29	-	_	PUNCT	_	_	30	punct	_	Tag=O
+30	Раиса	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	appos	_	Tag=O
+31	Максимовна	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	30	flat:name	_	Tag=O
+32	Горбачева	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	30	flat:name	_	Tag=O
+33	.	_	PUNCT	_	_	22	punct	_	Tag=O
+
+# sent_id = 738988_1
+# text = Она умерла от лейкемии в возрасте 67 лет.
+1	Она	_	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	Tag=O
+2	умерла	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+3	от	_	ADP	_	_	4	case	_	Tag=O
+4	лейкемии	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	Tag=O
+5	в	_	ADP	_	_	6	case	_	Tag=O
+6	возрасте	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	Tag=O
+7	67	_	NUM	_	_	8	nummod	_	Tag=O
+8	лет	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Tag=O
+9	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 738988_2
+# text = Раиса Горбачева родилась 5 января 1932 г. в городе Рубцовск Алтайского края.
+1	Раиса	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Tag=O
+2	Горбачева	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	Tag=O
+3	родилась	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+4	5	_	ADJ	_	_	3	obl	_	Tag=O
+5	января	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	Tag=O
+6	1932	_	ADJ	_	_	7	amod	_	Tag=O
+7	г	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Tag=O
+8	.	_	PUNCT	_	_	10	punct	_	Tag=O
+9	в	_	ADP	_	_	10	case	_	Tag=O
+10	городе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	Tag=O
+11	Рубцовск	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	Tag=O
+12	Алтайского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	Tag=O
+13	края	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Tag=O
+14	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 738988_3
+# text = В 1957 г. закончила философский факультет Московского государственного университета им. М.В. Ломоносова.
+1	В	_	ADP	_	_	3	case	_	Tag=O
+2	1957	_	ADJ	_	_	3	amod	_	Tag=O
+3	г	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Tag=O
+4	.	_	PUNCT	_	_	3	punct	_	Tag=O
+5	закончила	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+6	философский	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Tag=O
+7	факультет	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Tag=O
+8	Московского	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
+9	государственного	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
+10	университета	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	Tag=O
+11	им	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	Tag=O
+12	.	_	PUNCT	_	_	13	punct	_	Tag=O
+13	М	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Tag=O
+14	.	_	PUNCT	_	_	13	punct	_	Tag=O
+15	В	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	Tag=O
+16	.	_	PUNCT	_	_	13	punct	_	Tag=O
+17	Ломоносова	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	Tag=O
+18	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 738988_5
+# text = В 1976 г. семья Горбачевых переехала в Москву.До 1985 года, когда Михаил Горбачев стал Генеральным секретарем ЦК КПСС, Раиса Горбачева преподавала в МГУ.
+1	В	_	ADP	_	_	3	case	_	Tag=O
+2	1976	_	ADJ	_	_	3	amod	_	Tag=O
+3	г	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	Tag=O
+4	.	_	PUNCT	_	_	3	punct	_	Tag=O
+5	семья	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Tag=O
+6	Горбачевых	_	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	Tag=O
+7	переехала	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+8	в	_	ADP	_	_	9	case	_	Tag=O
+9	Москву	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	Tag=O
+10	.	_	PUNCT	_	_	7	punct	_	Tag=O
+
+# sent_id = 738993_4
+# text = Размер нашивки - 6 на 12 дюймов, или примерно 15 на 30 сантиметров.
+1	Размер	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Tag=O
+2	нашивки	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	Tag=O
+3	-	_	PUNCT	_	_	1	punct	_	Tag=O
+4	6	_	NUM	_	_	7	nummod	_	Tag=O
+5	на	_	ADP	_	_	7	case	_	Tag=O
+6	12	_	NUM	_	_	4	nummod	_	Tag=O
+7	дюймов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	Tag=O
+8	,	_	PUNCT	_	_	14	punct	_	Tag=O
+9	или	_	CCONJ	_	_	14	cc	_	Tag=O
+10	примерно	_	ADV	_	Degree=Pos	11	advmod	_	Tag=O
+11	15	_	NUM	_	_	14	nummod	_	Tag=O
+12	на	_	ADP	_	_	14	case	_	Tag=O
+13	30	_	NUM	_	_	11	nummod	_	Tag=O
+14	сантиметров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Tag=O
+15	.	_	PUNCT	_	_	1	punct	_	Tag=O
+
+# sent_id = 738993_8
+# text = Он содержит несколько слоев температурной защиты.
+1	Он	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	Tag=O
+2	содержит	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+3	несколько	_	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	Tag=O
+4	слоев	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	Tag=O
+5	температурной	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	Tag=O
+6	защиты	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
+7	.	_	PUNCT	_	_	2	punct	_	Tag=O
+
+# sent_id = 738996_0
+# text = Минувшей ночью руководство Освободительной армии Косово и представители международных миротворческих сил подписали соглашение об официальном статусе ОАК.
+1	Минувшей	_	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	Tag=O
+2	ночью	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	Tag=O
+3	руководство	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	Tag=O
+4	Освободительной	_	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Tag=O
+5	армии	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+6	Косово	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Tag=O
+7	и	_	CCONJ	_	_	8	cc	_	Tag=O
+8	представители	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	Tag=O
+9	международных	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	Tag=O
+10	миротворческих	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	Tag=O
+11	сил	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	Tag=O
+12	подписали	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+13	соглашение	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	Tag=O
+14	об	_	ADP	_	_	16	case	_	Tag=O
+15	официальном	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	Tag=O
+16	статусе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	Tag=O
+17	ОАК	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	Tag=O
+18	.	_	PUNCT	_	_	12	punct	_	Tag=O
+
+# sent_id = 738998_0
+# text = Около двух часов ночи с понедельника на вторник в жилой квартире на первом этаже дома 117 корпус 1 по Московскому проспекту в Петербурге возник пожар.
+1	Около	_	ADP	_	_	3	case	_	Tag=O
+2	двух	_	NUM	_	Case=Gen	3	nummod	_	Tag=O
+3	часов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	Tag=O
+4	ночи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Tag=O
+5	с	_	ADP	_	_	6	case	_	Tag=O
+6	понедельника	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	Tag=O
+7	на	_	ADP	_	_	8	case	_	Tag=O
+8	вторник	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	Tag=O
+9	в	_	ADP	_	_	11	case	_	Tag=O
+10	жилой	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	Tag=O
+11	квартире	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	Tag=O
+12	на	_	ADP	_	_	14	case	_	Tag=O
+13	первом	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	Tag=O
+14	этаже	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	Tag=O
+15	дома	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Tag=O
+16	117	_	NUM	_	_	17	appos	_	Tag=O
+17	корпус	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nummod:entity	_	Tag=O
+18	1	_	NUM	_	_	17	appos	_	Tag=O
+19	по	_	ADP	_	_	21	case	_	Tag=O
+20	Московскому	_	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	Tag=O
+21	проспекту	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	Tag=O
+22	в	_	ADP	_	_	23	case	_	Tag=O
+23	Петербурге	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	Tag=O
+24	возник	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=lG
+25	пожар	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	Tag=G
+26	.	_	PUNCT	_	_	24	punct	_	Tag=O
+
+# sent_id = 738999_5
+# text = Однако, подчеркнул представитель ПВУ,"гражданин вправе самостоятельно определять срок такой регистрации".
+1	Однако	_	ADV	_	Degree=Pos	9	parataxis	_	Tag=O
+2	,	_	PUNCT	_	_	1	punct	_	Tag=O
+3	подчеркнул	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	Tag=G
+4	представитель	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
+5	ПВУ	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Tag=O
+6	,	_	PUNCT	_	_	3	punct	_	Tag=O
+7	"	_	PUNCT	_	_	9	punct	_	Tag=O
+8	гражданин	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Tag=O
+9	вправе	_	ADV	_	Degree=Pos	0	root	_	Tag=O
+10	самостоятельно	_	ADV	_	Degree=Pos	11	advmod	_	Tag=O
+11	определять	_	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	Tag=R
+12	срок	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Tag=O
+13	такой	_	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	det	_	Tag=O
+14	регистрации	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Tag=O
+15	"	_	PUNCT	_	_	9	punct	_	Tag=O
+16	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# sent_id = 739002_0
+# text = Средства Минфина для погашения долгов по пенсиям уже переведены.
+1	Средства	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	Tag=O
+2	Минфина	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Tag=O
+3	для	_	ADP	_	_	4	case	_	Tag=O
+4	погашения	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	Tag=R
+5	долгов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	Tag=O
+6	по	_	ADP	_	_	7	case	_	Tag=O
+7	пенсиям	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	Tag=O
+8	уже	_	ADV	_	Degree=Pos	9	advmod	_	Tag=O
+9	переведены	_	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	Tag=G
+10	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# sent_id = 739002_4
+# text = Как ранее сообщал глава ПФ РФ Михаил Зурабов, долги по пенсиям составляют немногим менее 1 миллиарда рублей.
+1	Как	_	SCONJ	_	_	3	mark	_	Tag=O
+2	ранее	_	ADV	_	Degree=Pos	3	advmod	_	Tag=O
+3	сообщал	_	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	Tag=G
+4	глава	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Tag=O
+5	ПФ	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Tag=O
+6	РФ	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Tag=O
+7	Михаил	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	Tag=O
+8	Зурабов	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	Tag=O
+9	,	_	PUNCT	_	_	3	punct	_	Tag=O
+10	долги	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	Tag=O
+11	по	_	ADP	_	_	12	case	_	Tag=O
+12	пенсиям	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	nmod	_	Tag=O
+13	составляют	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+14	немногим	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	Tag=O
+15	менее	_	ADV	_	Degree=Cmp	18	advmod	_	Tag=O
+16	1	_	NUM	_	_	17	nummod	_	Tag=O
+17	миллиарда	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nummod:gov	_	Tag=O
+18	рублей	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obj	_	Tag=O
+19	.	_	PUNCT	_	_	13	punct	_	Tag=O
+
+# sent_id = 739003_3
+# text = Сразу же после взрыва на Каширке в ГУВД обратился хозяин склада на Краснодарской улице с заявлением о том, что он сдал помещение человеку по фамилии Лайпанов.
+1	Сразу	_	ADV	_	Degree=Pos	9	advmod	_	Tag=O
+2	же	_	PART	_	_	1	advmod	_	Tag=O
+3	после	_	ADP	_	_	4	case	_	Tag=O
+4	взрыва	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	Tag=G
+5	на	_	ADP	_	_	6	case	_	Tag=O
+6	Каширке	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	Tag=O
+7	в	_	ADP	_	_	8	case	_	Tag=O
+8	ГУВД	_	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	Tag=O
+9	обратился	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+10	хозяин	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Tag=O
+11	склада	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Tag=O
+12	на	_	ADP	_	_	14	case	_	Tag=O
+13	Краснодарской	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	Tag=O
+14	улице	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	Tag=O
+15	с	_	ADP	_	_	16	case	_	Tag=O
+16	заявлением	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	Tag=O
+17	о	_	ADP	_	_	18	case	_	Tag=O
+18	том	_	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	Tag=O
+19	,	_	PUNCT	_	_	22	punct	_	Tag=O
+20	что	_	SCONJ	_	_	22	mark	_	Tag=O
+21	он	_	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	Tag=O
+22	сдал	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	acl	_	Tag=G
+23	помещение	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	Tag=O
+24	человеку	_	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	22	iobj	_	Tag=O
+25	по	_	ADP	_	_	26	case	_	Tag=O
+26	фамилии	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	Tag=O
+27	Лайпанов	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	Tag=O
+28	.	_	PUNCT	_	_	9	punct	_	Tag=O
+
+# sent_id = 739003_4
+# text = По этому адресу милиционеры и обнаружили мешки со взрывчаткой.
+1	По	_	ADP	_	_	3	case	_	Tag=O
+2	этому	_	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	det	_	Tag=O
+3	адресу	_	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	Tag=O
+4	милиционеры	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Tag=O
+5	и	_	PART	_	_	6	advmod	_	Tag=O
+6	обнаружили	_	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+7	мешки	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	Tag=O
+8	со	_	ADP	_	_	9	case	_	Tag=O
+9	взрывчаткой	_	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
+10	.	_	PUNCT	_	_	6	punct	_	Tag=O
+
+# sent_id = 739005_0
+# text = С 30 сентября закрывается магазин "Британский Дом", расположенный в центре Москвы на Новом Арбате.
+1	С	_	ADP	_	_	2	case	_	Tag=O
+2	30	_	ADJ	_	_	4	obl	_	Tag=O
+3	сентября	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	flat	_	Tag=O
+4	закрывается	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Tag=G
+5	магазин	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Tag=O
+6	"	_	PUNCT	_	_	8	punct	_	Tag=O
+7	Британский	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	Tag=O
+8	Дом	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	Tag=O
+9	"	_	PUNCT	_	_	8	punct	_	Tag=O
+10	,	_	PUNCT	_	_	11	punct	_	Tag=O
+11	расположенный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	acl	_	Tag=R
+12	в	_	ADP	_	_	13	case	_	Tag=O
+13	центре	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	Tag=O
+14	Москвы	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	Tag=O
+15	на	_	ADP	_	_	17	case	_	Tag=O
+16	Новом	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	Tag=O
+17	Арбате	_	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	Tag=O
+18	.	_	PUNCT	_	_	4	punct	_	Tag=O
+
+# sent_id = 739006_8
+# text = В настоящее время долг "Белтрансгаза" за российский газ составляет 270 миллиардов долларов, сообщил генеральный директор.
+1	В	_	ADP	_	_	11	advmod	_	Tag=O
+2	настоящее	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	Tag=O
+3	время	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	Tag=O
+4	долг	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Tag=O
+5	"	_	PUNCT	_	_	6	punct	_	Tag=O
+6	Белтрансгаза	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Tag=O
+7	"	_	PUNCT	_	_	6	punct	_	Tag=O
+8	за	_	ADP	_	_	10	case	_	Tag=O
+9	российский	_	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	Tag=O
+10	газ	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	Tag=O
+11	составляет	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+12	270	_	NUM	_	_	13	nummod	_	Tag=O
+13	миллиардов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nummod	_	Tag=O
+14	долларов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obj	_	Tag=O
+15	,	_	PUNCT	_	_	16	punct	_	Tag=O
+16	сообщил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+17	генеральный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	Tag=O
+18	директор	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Tag=O
+19	.	_	PUNCT	_	_	11	punct	_	Tag=O
+
+# sent_id = 739006_9
+# text = Потребности Белоруссии в газе составляют 16,6 миллиарда кубических метров в год.
+1	Потребности	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	Tag=O
+2	Белоруссии	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	Tag=O
+3	в	_	ADP	_	_	4	case	_	Tag=O
+4	газе	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	Tag=O
+5	составляют	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Tag=R
+6	16,6	_	NUM	_	_	7	nummod	_	Tag=O
+7	миллиарда	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nummod:gov	_	Tag=O
+8	кубических	_	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	Tag=O
+9	метров	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	Tag=O
+10	в	_	ADP	_	_	11	case	_	Tag=O
+11	год	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	Tag=O
+12	.	_	PUNCT	_	_	5	punct	_	Tag=O
+
+# sent_id = 739008_6
+# text = Миссис Редстоун забрала свой иск и Viacom приобрела киностудию за 10 миллиардов долларов.
+1	Миссис	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Tag=O
+2	Редстоун	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	Tag=O
+3	забрала	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+4	свой	_	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	det	_	Tag=O
+5	иск	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Tag=O
+6	и	_	CCONJ	_	_	8	cc	_	Tag=O
+7	Viacom	_	PROPN	_	Foreign=Yes	8	nsubj	_	Tag=O
+8	приобрела	_	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Tag=G
+9	киностудию	_	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Tag=O
+10	за	_	ADP	_	_	13	case	_	Tag=O
+11	10	_	NUM	_	_	12	nummod	_	Tag=O
+12	миллиардов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nummod	_	Tag=O
+13	долларов	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	Tag=O
+14	.	_	PUNCT	_	_	3	punct	_	Tag=O
+
+# sent_id = 739149_6
+# text = Как сообщает РИА "Новости", на состоявшейся после встречи пресс-конференции Путин заявил, что у России и США общий противник - международный терроризм.
+1	Как	_	SCONJ	_	_	2	mark	_	Tag=O
+2	сообщает	_	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	Tag=G
+3	РИА	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Tag=O
+4	"	_	PUNCT	_	_	5	punct	_	Tag=O
+5	Новости	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	appos	_	Tag=O
+6	"	_	PUNCT	_	_	5	punct	_	Tag=O
+7	,	_	PUNCT	_	_	2	punct	_	Tag=O
+8	на	_	ADP	_	_	12	case	_	Tag=O
+9	состоявшейся	_	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	Tag=lG
+10	после	_	ADP	_	_	11	case	_	Tag=O
+11	встречи	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	Tag=G
+12	пресс-конференции	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	Tag=G
+13	Путин	_	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	Tag=O
+14	заявил	_	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Tag=G
+15	,	_	PUNCT	_	_	25	punct	_	Tag=O
+16	что	_	SCONJ	_	_	25	mark	_	Tag=O
+17	у	_	ADP	_	_	18	case	_	Tag=O
+18	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	ccomp	_	Tag=O
+19	и	_	CCONJ	_	_	20	cc	_	Tag=O
+20	США	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	Tag=O
+21	общий	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	Tag=O
+22	противник	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	Tag=O
+23	-	_	PUNCT	_	_	25	punct	_	Tag=O
+24	международный	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	Tag=O
+25	терроризм	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	ccomp	_	Tag=O
+26	.	_	PUNCT	_	_	14	punct	_	Tag=O
+
 # sent_id = 739150_1
 # text = Врагом №1 по-прежнему является Россия, имеющая около 1000 межконтинентальных баллистических ракет.
 1	Врагом	_	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	xcomp	_	Tag=O
@@ -4042,7 +4857,6 @@
 20	заключенных	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	obj	_	Tag=O
 21	.	_	PUNCT	_	_	15	punct	_	Tag=O
 
-
 # sent_id = 739151_12
 # text = На следующий день израильтяне передали под контроль Палестинской автономии 7% территории Западного берега реки Иордан.
 1	На	_	ADP	_	_	3	case	_	Tag=O
@@ -4081,7 +4895,6 @@
 14	тайников	_	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	Tag=O
 15	.	_	PUNCT	_	_	1	punct	_	Tag=O
 
-
 # sent_id = 739152_9
 # text = Восемь получили ранения.
 1	Восемь	_	NUM	_	Case=Nom	2	nsubj	_	Tag=O
@@ -4103,7 +4916,6 @@
 10	Ru	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	flat	_	Tag=O
 11	,	_	PUNCT	_	_	12	punct	_	Tag=O
 12	9.09.99	_	NUM	_	_	8	nummod	_	Tag=O
-
 
 # newdoc id = 739153
 # sent_id = 739153_0
@@ -4143,7 +4955,6 @@
 8	Карамахи	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Tag=O
 9	.	_	PUNCT	_	_	5	punct	_	Tag=O
 
-
 # sent_id = 739153_3
 # text = В селениях обнаружены подземные склады оружия и подземные классы для подготовки боевиков.
 1	В	_	ADP	_	_	2	case	_	Tag=O
@@ -4177,7 +4988,6 @@
 13	экстремистов	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Tag=O
 14	.	_	PUNCT	_	_	7	punct	_	Tag=O
 
-
 # newdoc id = 739154
 # sent_id = 739154_0
 # text = Два крупнейших немецких банка сообщили властям о перемещении через их счета подозрительных миллиардных сумм из России.
@@ -4198,7 +5008,6 @@
 15	из	_	ADP	_	_	16	case	_	Tag=O
 16	России	_	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	Tag=O
 17	.	_	PUNCT	_	_	5	punct	_	Tag=O
-
 
 # sent_id = 739154_1
 # text = Как сообщает немецкий еженедельник Der Spiegel, перевод денежных средств через Deutsche Bank и Dresdner Bank осуществлялся компаниями и лицами, находящимися в США под подозрением в отмывании незаконных денег.
