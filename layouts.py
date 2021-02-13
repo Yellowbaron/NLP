@@ -12,6 +12,7 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 import base64
 from elements import sidebar, compare_table, header, content, select_dates, create_table_from_DF, result, dataset
+from dataframes import dates
 
 
 # -----------------------------------------------
@@ -26,16 +27,18 @@ compare = html.Div([
             dbc.Col(
                 [
                     sidebar,
-                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "white", "background-color": "#2060F5", 'margin-top': '256px', 'position':'absolute'}),
+                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "white", "background-color": "#2962ff", 'margin-top': '256px', 'position':'absolute'}),
                     # Всё держится на одной строчке, нужно пофиксить! no_gutters
-                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "white", "background-color": "#2060F5", 'margin-top': '256px', 'padding-left': '16px', 'width': '16rem'}),
+                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "white", "background-color": "#2962ff", 'margin-top': '256px', 'padding-left': '16px', 'width': '16rem'}),
                     dcc.Dropdown(
                         id="select",
                         options=select_dates,
                         multi=True,
                         style={'height': 'auto', 'margin-left': 'auto', 'margin-right': 'auto', 'width': '14rem',
                                'align': 'center'},
-                        # value=1
+                        # По умолчанию отображаем два последних эксперимента
+                        # value=dates['id'][-2:].values,
+                        # Раскомментировать, когда на Heroku станет можно поставить новую версию Dash
                     ),
                     html.Div("byGalimyanov", style={"color": "white", 'position': 'fixed', "bottom": '0px', "left": '8px', "width": "16rem",})
                 ],
@@ -61,17 +64,9 @@ overview = html.Div([
             dbc.Col(
                 [
                     sidebar,
-                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "#2060F5", "background-color": "#2060F5", 'margin-top': '256px', 'position':'absolute'}),
+                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "#2962ff", "background-color": "#2962ff", 'margin-top': '256px', 'position':'absolute'}),
                     # Всё держится на одной строчке, нужно пофиксить! no_gutters
-                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "#2060F5", "background-color": "#2060F5", 'margin-top': '256px', 'padding-left': '16px'}),
-                    # dcc.Dropdown(
-                    #     id="select",
-                    #     options=select_dates,
-                    #     multi=True,
-                    #     style={'height': 'auto', 'margin-left': 'auto', 'margin-right': 'auto', 'width': '14rem',
-                    #            'align': 'center'},
-                    #     # value=1
-                    # ),
+                    html.Div("Выберите даты экспериментов", style={'align': 'center', 'padding': '8px', "color": "#2962ff", "background-color": "#2962ff", 'margin-top': '256px', 'padding-left': '16px'}),
                     html.Div("byGalimyanov", style={"color": "white", 'position': 'fixed', "bottom": '0px', "left": '8px', "width": "16rem",})
                 ],
                 width='16rem',
