@@ -1,6 +1,6 @@
 '''
-    Модуль ответственный за компоненты дашборда
-
+    Модуль ответственный за компоненты дашборда и
+    визуальные элементы
 '''
 
 import dash
@@ -15,10 +15,6 @@ from dataframes import dates, result, confusion_matrix, dataset, word2vec_model,
 import seaborn as sns
 from math import ceil
 import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-from ipywidgets import HBox
-
 
 
 # -----------------------------------------------
@@ -47,7 +43,7 @@ GITHUB_LOGO = 'https://raw.githubusercontent.com/simple-icons/simple-icons/devel
 LOGO = base64.b64encode(open('logo.png', 'rb').read())
 
 # -----------------------------------------------
-# Блок функций
+# Блок общих функций
 # -----------------------------------------------
 
 # Рендер таблицы
@@ -93,8 +89,8 @@ sidebar = html.Div(
         dbc.Nav(
             [
                 dbc.NavLink("ОБЗОР", href="/", active="exact", style={'color':'white'}),
-                dbc.NavLink("СРАВНЕНИЕ", href="/page-1", active="exact", style={'color':'white'}),
-                dbc.NavLink("ДЕМОНСТРАЦИЯ", href="/page-2", active="exact", style={'color':'white'}),
+                dbc.NavLink("СРАВНЕНИЕ", href="/compare", active="exact", style={'color':'white'}),
+                dbc.NavLink("ДЕМОНСТРАЦИЯ", href="/demonstration", active="exact", style={'color':'white'}),
             ],
             style={'padding-top': '32px'},
             vertical=True,
@@ -259,7 +255,7 @@ accuracy_by_classes_progress = dbc.Row(
 )
 
 # Контент для обзора
-content = html.Div(
+overview_content = html.Div(
     [
         dbc.Row(
                 [
@@ -272,7 +268,7 @@ content = html.Div(
                         [
                             dbc.Card(
                                 [
-                                    dbc.CardHeader("Количество классов в датасете"),
+                                    dbc.CardHeader("Количество классов в обучающем множестве"),
                                     dbc.CardBody(
                                         [
                                             dcc.Graph(figure=donut_chart(dataset['date'].max())),
@@ -290,6 +286,11 @@ content = html.Div(
         ],
     id='content'
     )
+
+# -----------------------------------------------
+# Контент страницы сравнения
+# -----------------------------------------------
+
 # -----------------------------------------------
 # Таблицы сравнений экспериментов
 # -----------------------------------------------
@@ -309,10 +310,9 @@ for i in select_dates:
     i['label'] = i.pop('date')
     i['value'] = i.pop('id')
 
-select_dates.append({'label': '(Выбрать все)', 'value': 'All'})
+# select_dates.append({'label': '(Выбрать все)', 'value': 'All'})  # Сказали, что такая функция не нужна
 
-compare_table = html.Div([], id='compare_table')
-
+# Таблица сравнения
 def comparison_table(dataf):
 
     df1 = pd.DataFrame(
@@ -328,10 +328,7 @@ def comparison_table(dataf):
     return df1
 
 
-# -----------------------------------------------
-# Блок работы с матрицами ошибок
-# -----------------------------------------------
-
+# Функция обновления группы матриц ошибок
 def confusion_matrix_plot(df_to_plotly):
     df_to_plotly = df_to_plotly.rename(columns={'test_pred': 'Истинное', 'set_o': 'O', 'set_g': 'G', 'set_lg': 'lG'})
     df_to_plotly.set_index('Истинное', inplace=True)
@@ -343,8 +340,9 @@ def confusion_matrix_plot(df_to_plotly):
 
     for matrix in df_to_plotly['date'].unique():
         confuz.append(df_to_plotly.loc[df_to_plotly['date'] == matrix])  #
-    size_x, size_y = 8, 3  # Пропорции фигуры из матриц
+    size_x, size_y = 8, 3  # Пропорции (размеры) фигуры из матриц
 
+    # Выберем количество столбцов
     if len(confuz) % 3 == 0:
         quantity_x = 3
     elif len(confuz) % 2 == 0:
@@ -352,9 +350,9 @@ def confusion_matrix_plot(df_to_plotly):
     else:
         quantity_x = 1
 
-    quantity_y = int(len(confuz) // quantity_x)
+    quantity_y = int(len(confuz) // quantity_x)  # Количество строк
     if quantity_y == quantity_x == 1: quantity_x = 2
-    if quantity_y > 1: size_y = size_y * quantity_y
+    if quantity_y > 1: size_y = size_y * quantity_y  # Изменим пропорции фигуры в пропорции кол-ва строк
     fig = plt.figure(figsize=(size_x, size_y))
     ax = []
     k = 0
@@ -367,16 +365,14 @@ def confusion_matrix_plot(df_to_plotly):
         ax[k].set_title(date_temp)
         k += 1
 
-    plt.tight_layout()
-    plt.savefig('figura.png', format='png')
+    plt.tight_layout()                       # Постройка байтовой информации о фигуре не работает
+    plt.savefig('figura.png', format='png')  # Поэтому перезаписываем png файл
 
-# -----------------------------------------------
-# Блок работы с матрицами ошибок
-# -----------------------------------------------
+
+# Функция постройки круговых диаграмм обучающих датасетов
 def subplot_donuts(arrDates):
-    print("Я внутри")
 
     return dcc.Graph(figure=donut_chart(arrDates).update_layout(
-        title='Датасет на ' + dates[arrDates == dates['id']]['date'].values[0][5:],
+        title='Обучающее множество ' + dates[arrDates == dates['id']]['date'].values[0][5:],
         margin=dict(l=20, r=20, t=5, b=5)),
         style={'width': '33%', 'height': '50%'})

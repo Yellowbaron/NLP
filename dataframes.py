@@ -1,6 +1,6 @@
 '''
     Модуль ответственный за обработку данных из SQL
-
+    и помещение их в датафрейм Pandas
 '''
 
 import pandas as pd
@@ -68,10 +68,7 @@ architecture = pd.read_sql_query('SELECT date, hyperparameters, major_characteri
 epochs = pd.read_sql_query('SELECT date, class_epoch, numeric_characteristic, val_acc, val_loss, acc, loss FROM epochs', con=engine)
 accuracy = pd.read_sql_query('SELECT date, name_test, accuracy FROM accuracy', con=engine)
 
+# Отбор данных для выпадающего меню выбора дат экспериментов
 select_dates = dates.to_dict('records')
 for i in select_dates:
     i['label'] = i.pop('date')
-
-
-
-

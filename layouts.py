@@ -11,7 +11,7 @@ import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 import base64
-from elements import sidebar, compare_table, header, content, select_dates, create_table_from_DF, result, dataset
+from elements import sidebar, compare_table, header, overview_content, select_dates, create_table_from_DF, result, dataset
 from dataframes import dates
 
 
@@ -72,7 +72,7 @@ overview = html.Div([
                 width='16rem',
                 style={'position': 'relative', 'height': '100%'}
             ),
-            dbc.Col(content, style={'padding': '16px', 'margin-left': '16px'}),
+            dbc.Col(overview_content, style={'padding': '16px', 'margin-left': '16px'}),
         ],
         style={'height': '100%'},
         no_gutters=True,

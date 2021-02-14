@@ -11,11 +11,10 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 import base64
-from elements import sidebar, header, content, confusion_matrix_plot, create_table_from_DF, result, dataset, comparison_table, donut_chart, subplot_donuts
+from elements import sidebar, header, confusion_matrix_plot, create_table_from_DF, result, comparison_table, subplot_donuts
 from dataframes import confusion_matrix
 from layouts import compare, overview
 
@@ -39,13 +38,18 @@ app.layout = html.Div([
 # Блок обработки функций обратных вызовов
 # -----------------------------------------------
 
+# -----------------------------------------------------------------
+# Обратный вызов при изменении страницы дашборда
+# -----------------------------------------------------------------
+
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def render_page_content(pathname):
     if pathname == "/":
         return overview
-    elif pathname == "/page-1":
+    elif pathname == "/compare":
         return compare
-    elif pathname == "/page-2":
+    elif pathname == "/demonstration":
+        # Пока тут нет контента реализовано внутри обратного вызова
         return html.Div(
             [
                 dbc.Row(dbc.Col(header), no_gutters=True),
@@ -54,6 +58,9 @@ def render_page_content(pathname):
                         dbc.Col(
                             [
                                 sidebar,
+                                html.Div("byGalimyanov",
+                                         style={"color": "white", 'position': 'fixed', "bottom": '0px', "left": '8px',
+                                                "width": "16rem", }),
                                 dbc.Alert(
                                     [
                                         "Скоро этот раздел заработает, а сейчас можете воспользоваться ноутбуком в ",
@@ -78,6 +85,10 @@ def render_page_content(pathname):
             html.P(f"The pathname {pathname} was not recognised..."),
         ]
     )
+
+# -----------------------------------------------------------------
+# Обратный вызов при изменении выбранных дат на странице сравнения
+# -----------------------------------------------------------------
 
 @app.callback(
     dash.dependencies.Output('compare_table', 'children'),
@@ -123,6 +134,9 @@ def update_table(date_value):
 
     return new_table
 
+# -----------------------------------------------------------------
+# Обратный вызов при открытии легенды классов
+# -----------------------------------------------------------------
 @app.callback(
     Output("positioned-toast", "is_open"),
     [Input("positioned-toast-toggle", "n_clicks")],
@@ -132,6 +146,7 @@ def open_toast(n):
         return True
     return False
 
+
 # Запуск сервера
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
