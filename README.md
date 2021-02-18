@@ -17,6 +17,7 @@ In our training set, we have removed all kinds of sentences with an ambiguous in
 <p>G - event trigger - the word used to refer to the event in the text.</p>
 <p>lG - auxiliary trigger - for cases when the reference is verbose (for example, "a meeting took place").</p>
 <p>O - other words in the text.</p>
+<p>Corpus_Event.txt - dataset</p>
 
 ### Technologies
 
